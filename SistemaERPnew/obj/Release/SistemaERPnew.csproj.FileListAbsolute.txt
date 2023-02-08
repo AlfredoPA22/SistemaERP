@@ -1,0 +1,712 @@
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\SqlServerTypes\x64\msvcr120.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\SqlServerTypes\x64\SqlServerSpatial140.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\SqlServerTypes\x86\msvcr120.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\SqlServerTypes\x86\SqlServerSpatial140.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\SistemaERPnew.dll.config
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\SistemaERPnew.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\SistemaERPnew.pdb
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\roslyn\csc.exe
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\roslyn\csc.exe.config
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\roslyn\csc.rsp
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\roslyn\csi.exe
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\roslyn\csi.exe.config
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\roslyn\csi.rsp
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\roslyn\Microsoft.CodeAnalysis.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\roslyn\Microsoft.CSharp.Core.targets
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\roslyn\Microsoft.Managed.Core.targets
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\roslyn\Microsoft.VisualBasic.Core.targets
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\roslyn\System.AppContext.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\roslyn\System.Collections.Immutable.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\roslyn\System.Console.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\roslyn\System.Diagnostics.StackTrace.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\roslyn\System.IO.Compression.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\roslyn\System.IO.FileSystem.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\roslyn\System.IO.FileSystem.Primitives.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\roslyn\System.IO.Pipes.AccessControl.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\roslyn\System.IO.Pipes.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\roslyn\System.Reflection.Metadata.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\roslyn\System.Security.AccessControl.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\roslyn\System.Security.Claims.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\roslyn\System.Security.Cryptography.Encoding.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\roslyn\System.Security.Cryptography.Primitives.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\roslyn\System.Security.Principal.Windows.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\roslyn\System.Text.Encoding.CodePages.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\roslyn\System.ValueTuple.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\roslyn\System.Xml.ReaderWriter.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\roslyn\System.Xml.XmlDocument.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\roslyn\System.Xml.XPath.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\roslyn\System.Xml.XPath.XDocument.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\roslyn\vbc.exe
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\roslyn\vbc.exe.config
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\roslyn\vbc.rsp
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\roslyn\VBCSCompiler.exe
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\roslyn\VBCSCompiler.exe.config
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.Win32.Primitives.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\netstandard.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.AppContext.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Collections.Concurrent.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Collections.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Collections.NonGeneric.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Collections.Specialized.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.ComponentModel.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.ComponentModel.EventBasedAsync.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.ComponentModel.Primitives.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.ComponentModel.TypeConverter.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Console.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Data.Common.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Diagnostics.Contracts.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Diagnostics.Debug.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Diagnostics.FileVersionInfo.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Diagnostics.Process.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Diagnostics.StackTrace.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Diagnostics.TextWriterTraceListener.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Diagnostics.Tools.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Diagnostics.TraceSource.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Diagnostics.Tracing.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Drawing.Primitives.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Dynamic.Runtime.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Globalization.Calendars.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Globalization.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Globalization.Extensions.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.IO.Compression.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.IO.Compression.ZipFile.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.IO.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.IO.FileSystem.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.IO.FileSystem.DriveInfo.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.IO.FileSystem.Primitives.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.IO.FileSystem.Watcher.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.IO.IsolatedStorage.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.IO.MemoryMappedFiles.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.IO.Pipes.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.IO.UnmanagedMemoryStream.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Linq.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Linq.Expressions.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Linq.Parallel.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Linq.Queryable.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Net.Http.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Net.NameResolution.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Net.NetworkInformation.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Net.Ping.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Net.Primitives.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Net.Requests.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Net.Security.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Net.Sockets.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Net.WebHeaderCollection.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Net.WebSockets.Client.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Net.WebSockets.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.ObjectModel.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Reflection.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Reflection.Extensions.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Reflection.Primitives.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Resources.Reader.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Resources.ResourceManager.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Resources.Writer.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Runtime.CompilerServices.VisualC.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Runtime.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Runtime.Extensions.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Runtime.Handles.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Runtime.InteropServices.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Runtime.Numerics.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Runtime.Serialization.Formatters.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Runtime.Serialization.Json.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Runtime.Serialization.Primitives.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Runtime.Serialization.Xml.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Security.Claims.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Security.Cryptography.Algorithms.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Security.Cryptography.Csp.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Security.Cryptography.Encoding.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Security.Cryptography.Primitives.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Security.Cryptography.X509Certificates.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Security.Principal.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Security.SecureString.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Text.Encoding.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Text.Encoding.Extensions.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Text.RegularExpressions.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Threading.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Threading.Overlapped.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Threading.Tasks.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Threading.Tasks.Parallel.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Threading.Thread.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Threading.ThreadPool.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Threading.Timer.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.ValueTuple.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Xml.ReaderWriter.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Xml.XDocument.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Xml.XmlDocument.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Xml.XmlSerializer.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Xml.XPath.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Xml.XPath.XDocument.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Antlr3.Runtime.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Datos.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Entidad.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\EntityFramework.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\EntityFramework.SqlServer.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Logica.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.AspNet.Identity.Core.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.AspNet.Identity.Owin.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.AspNetCore.Authentication.Abstractions.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.AspNetCore.Authentication.Cookies.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.AspNetCore.Authentication.Core.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.AspNetCore.Authentication.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.AspNetCore.Cryptography.Internal.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.AspNetCore.DataProtection.Abstractions.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.AspNetCore.DataProtection.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.AspNetCore.Hosting.Abstractions.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.AspNetCore.Http.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.AspNetCore.Http.Extensions.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.AspNetCore.Http.Features.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.AspNetCore.WebUtilities.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.Extensions.FileProviders.Abstractions.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.Extensions.Hosting.Abstractions.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.Extensions.Logging.Abstractions.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.Extensions.ObjectPool.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.Extensions.Options.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.Extensions.Primitives.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.Extensions.WebEncoders.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.Net.Http.Headers.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.Owin.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.Owin.Host.SystemWeb.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.Owin.Security.Cookies.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.Owin.Security.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.Owin.Security.OAuth.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.ReportViewer.Common.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.ReportViewer.DataVisualization.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.ReportViewer.Design.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.ReportViewer.ProcessingObjectModel.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.ReportViewer.WebDesign.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.ReportViewer.WebForms.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.ReportViewer.WinForms.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.SqlServer.Types.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.Web.Infrastructure.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.Win32.Registry.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Newtonsoft.Json.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Owin.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\ReportViewerForMvc.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Buffers.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.ComponentModel.Annotations.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Memory.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Numerics.Vectors.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Runtime.CompilerServices.Unsafe.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Security.AccessControl.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Security.Cryptography.Xml.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Security.Permissions.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Security.Principal.Windows.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Text.Encodings.Web.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Web.Helpers.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Web.Mvc.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Web.Optimization.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Web.Razor.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Web.WebPages.Deployment.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Web.WebPages.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Web.WebPages.Razor.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\WebGrease.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\EnvDTE.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.VisualStudio.Shell.Interop.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\stdole.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.VisualStudio.OLE.Interop.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.VisualStudio.TextManager.Interop.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.MSXML.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Datos.pdb
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Datos.dll.config
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Entidad.pdb
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Logica.pdb
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Logica.dll.config
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\EntityFramework.xml
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\EntityFramework.SqlServer.xml
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.AspNet.Identity.Core.xml
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.AspNet.Identity.Owin.xml
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.AspNetCore.Authentication.xml
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.AspNetCore.Authentication.Abstractions.xml
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.AspNetCore.Authentication.Cookies.xml
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.AspNetCore.Authentication.Core.xml
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.AspNetCore.Cryptography.Internal.xml
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.AspNetCore.DataProtection.xml
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.AspNetCore.DataProtection.Abstractions.xml
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.AspNetCore.Hosting.Abstractions.xml
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.xml
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.AspNetCore.Http.xml
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.AspNetCore.Http.Extensions.xml
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.AspNetCore.Http.Features.xml
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.AspNetCore.WebUtilities.xml
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.Extensions.FileProviders.Abstractions.xml
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.Extensions.Hosting.Abstractions.xml
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.Extensions.Logging.Abstractions.xml
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.Extensions.ObjectPool.xml
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.Extensions.Options.xml
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.Extensions.Primitives.xml
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.Extensions.WebEncoders.xml
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.Net.Http.Headers.xml
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.Owin.xml
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.Owin.Host.SystemWeb.xml
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.Owin.Security.xml
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.Owin.Security.Cookies.xml
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.Owin.Security.OAuth.xml
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Buffers.xml
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Memory.xml
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Numerics.Vectors.xml
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Runtime.CompilerServices.Unsafe.xml
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Text.Encodings.Web.xml
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Web.Helpers.xml
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Web.Mvc.xml
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Web.Razor.xml
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Web.WebPages.xml
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Web.WebPages.Deployment.xml
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Web.WebPages.Razor.xml
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Web.Optimization.xml
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Newtonsoft.Json.xml
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Antlr3.Runtime.pdb
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\de\Microsoft.ReportViewer.Common.resources.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\es\Microsoft.ReportViewer.Common.resources.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\fr\Microsoft.ReportViewer.Common.resources.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\it\Microsoft.ReportViewer.Common.resources.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\ja\Microsoft.ReportViewer.Common.resources.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\ko\Microsoft.ReportViewer.Common.resources.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\pt\Microsoft.ReportViewer.Common.resources.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\ru\Microsoft.ReportViewer.Common.resources.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\de\Microsoft.ReportViewer.Design.resources.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\es\Microsoft.ReportViewer.Design.resources.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\fr\Microsoft.ReportViewer.Design.resources.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\it\Microsoft.ReportViewer.Design.resources.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\ja\Microsoft.ReportViewer.Design.resources.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\ko\Microsoft.ReportViewer.Design.resources.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\pt\Microsoft.ReportViewer.Design.resources.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\ru\Microsoft.ReportViewer.Design.resources.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\de\Microsoft.ReportViewer.WebDesign.resources.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\es\Microsoft.ReportViewer.WebDesign.resources.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\fr\Microsoft.ReportViewer.WebDesign.resources.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\it\Microsoft.ReportViewer.WebDesign.resources.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\ja\Microsoft.ReportViewer.WebDesign.resources.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\ko\Microsoft.ReportViewer.WebDesign.resources.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\pt\Microsoft.ReportViewer.WebDesign.resources.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\ru\Microsoft.ReportViewer.WebDesign.resources.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\zh-CHS\Microsoft.ReportViewer.WebDesign.resources.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\zh-CHT\Microsoft.ReportViewer.WebDesign.resources.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\de\Microsoft.ReportViewer.WebForms.resources.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\es\Microsoft.ReportViewer.WebForms.resources.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\fr\Microsoft.ReportViewer.WebForms.resources.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\it\Microsoft.ReportViewer.WebForms.resources.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\ja\Microsoft.ReportViewer.WebForms.resources.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\ko\Microsoft.ReportViewer.WebForms.resources.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\pt\Microsoft.ReportViewer.WebForms.resources.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\ru\Microsoft.ReportViewer.WebForms.resources.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\zh-CHS\Microsoft.ReportViewer.WebForms.resources.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\zh-CHT\Microsoft.ReportViewer.WebForms.resources.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\de\Microsoft.ReportViewer.WinForms.resources.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\es\Microsoft.ReportViewer.WinForms.resources.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\fr\Microsoft.ReportViewer.WinForms.resources.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\it\Microsoft.ReportViewer.WinForms.resources.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\ja\Microsoft.ReportViewer.WinForms.resources.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\ko\Microsoft.ReportViewer.WinForms.resources.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\pt\Microsoft.ReportViewer.WinForms.resources.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\ru\Microsoft.ReportViewer.WinForms.resources.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\es\System.Web.Helpers.resources.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\es\System.Web.Mvc.resources.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\es\System.Web.Razor.resources.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\es\System.Web.WebPages.resources.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\es\System.Web.WebPages.Deployment.resources.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\es\System.Web.WebPages.Razor.resources.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\es\System.Web.Optimization.resources.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\obj\Release\SistemaERPnew.csproj.AssemblyReference.cache
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\obj\Release\RdlCompile.cache
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\obj\Release\RdlCompile.compiled
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\obj\Release\SistemaERPnew.csproj.CoreCompileInputs.cache
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\obj\Release\SistemaERPnew.csproj.CopyComplete
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\obj\Release\SistemaERPnew.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\obj\Release\SistemaERPnew.pdb
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\SqlServerTypes\x64\msvcr120.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\SqlServerTypes\x86\msvcr120.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\SistemaERPnew.dll.config
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\SistemaERPnew.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\SistemaERPnew.pdb
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\roslyn\csc.exe
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\roslyn\csc.exe.config
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\roslyn\csc.rsp
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\roslyn\csi.exe
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\roslyn\csi.exe.config
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\roslyn\csi.rsp
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\roslyn\System.AppContext.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\roslyn\System.Console.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\roslyn\System.IO.Compression.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\roslyn\System.IO.Pipes.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\roslyn\System.Security.Claims.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\roslyn\System.ValueTuple.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\roslyn\System.Xml.XPath.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\roslyn\vbc.exe
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\roslyn\vbc.exe.config
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\roslyn\vbc.rsp
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\roslyn\VBCSCompiler.exe
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.Win32.Primitives.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\netstandard.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.AppContext.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Collections.Concurrent.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Collections.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Collections.NonGeneric.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Collections.Specialized.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.ComponentModel.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.ComponentModel.EventBasedAsync.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.ComponentModel.Primitives.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.ComponentModel.TypeConverter.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Console.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Data.Common.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Diagnostics.Contracts.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Diagnostics.Debug.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Diagnostics.FileVersionInfo.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Diagnostics.Process.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Diagnostics.StackTrace.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Diagnostics.TextWriterTraceListener.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Diagnostics.Tools.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Diagnostics.TraceSource.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Diagnostics.Tracing.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Drawing.Primitives.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Dynamic.Runtime.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Globalization.Calendars.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Globalization.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Globalization.Extensions.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.IO.Compression.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.IO.Compression.ZipFile.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.IO.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.IO.FileSystem.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.IO.FileSystem.DriveInfo.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.IO.FileSystem.Primitives.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.IO.FileSystem.Watcher.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.IO.IsolatedStorage.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.IO.MemoryMappedFiles.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.IO.Pipes.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.IO.UnmanagedMemoryStream.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Linq.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Linq.Expressions.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Linq.Parallel.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Linq.Queryable.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Net.Http.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Net.NameResolution.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Net.NetworkInformation.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Net.Ping.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Net.Primitives.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Net.Requests.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Net.Security.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Net.Sockets.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Net.WebHeaderCollection.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Net.WebSockets.Client.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Net.WebSockets.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.ObjectModel.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Reflection.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Reflection.Extensions.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Reflection.Primitives.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Resources.Reader.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Resources.ResourceManager.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Resources.Writer.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Runtime.CompilerServices.VisualC.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Runtime.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Runtime.Extensions.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Runtime.Handles.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Runtime.InteropServices.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Runtime.Numerics.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Runtime.Serialization.Formatters.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Runtime.Serialization.Json.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Runtime.Serialization.Primitives.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Runtime.Serialization.Xml.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Security.Claims.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Security.Cryptography.Algorithms.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Security.Cryptography.Csp.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Security.Cryptography.Encoding.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Security.Cryptography.Primitives.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Security.Cryptography.X509Certificates.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Security.Principal.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Security.SecureString.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Text.Encoding.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Text.Encoding.Extensions.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Text.RegularExpressions.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Threading.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Threading.Overlapped.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Threading.Tasks.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Threading.Tasks.Parallel.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Threading.Thread.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Threading.ThreadPool.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Threading.Timer.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.ValueTuple.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Xml.ReaderWriter.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Xml.XDocument.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Xml.XmlDocument.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Xml.XmlSerializer.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Xml.XPath.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Xml.XPath.XDocument.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Antlr3.Runtime.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Datos.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Entidad.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\EntityFramework.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\EntityFramework.SqlServer.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Logica.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.AspNetCore.Authentication.Cookies.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.AspNetCore.Authentication.Core.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.AspNetCore.Authentication.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.AspNetCore.DataProtection.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.AspNetCore.Hosting.Abstractions.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.AspNetCore.Http.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.AspNetCore.Http.Extensions.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.AspNetCore.WebUtilities.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.Extensions.ObjectPool.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.Extensions.Options.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.Extensions.Primitives.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.Extensions.WebEncoders.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.Net.Http.Headers.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.Owin.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.Owin.Security.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.ReportViewer.Common.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.ReportViewer.Design.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.ReportViewer.WebDesign.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.ReportViewer.WebForms.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.ReportViewer.WinForms.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.SqlServer.Types.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.Win32.Registry.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Newtonsoft.Json.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Owin.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\ReportViewerForMvc.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Buffers.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.ComponentModel.Annotations.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Memory.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Numerics.Vectors.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Security.AccessControl.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Security.Cryptography.Xml.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Security.Permissions.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Security.Principal.Windows.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Text.Encodings.Web.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Web.Helpers.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Web.Mvc.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Web.Optimization.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Web.Razor.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Web.WebPages.Deployment.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Web.WebPages.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Web.WebPages.Razor.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\WebGrease.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\EnvDTE.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\stdole.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.MSXML.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Datos.pdb
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Datos.dll.config
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Entidad.pdb
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Logica.pdb
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Logica.dll.config
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\EntityFramework.xml
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\EntityFramework.SqlServer.xml
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.AspNetCore.Authentication.xml
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.AspNetCore.Authentication.Cookies.xml
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.AspNetCore.Authentication.Core.xml
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.AspNetCore.Cryptography.Internal.xml
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.AspNetCore.DataProtection.xml
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.AspNetCore.Hosting.Abstractions.xml
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.AspNetCore.Http.xml
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.AspNetCore.Http.Extensions.xml
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.AspNetCore.Http.Features.xml
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.AspNetCore.WebUtilities.xml
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.Extensions.Hosting.Abstractions.xml
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.Extensions.ObjectPool.xml
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.Extensions.Options.xml
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.Extensions.Primitives.xml
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.Extensions.WebEncoders.xml
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.Net.Http.Headers.xml
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.Owin.xml
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.Owin.Security.xml
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Buffers.xml
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Memory.xml
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Numerics.Vectors.xml
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Text.Encodings.Web.xml
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Web.Helpers.xml
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Web.Mvc.xml
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Web.Razor.xml
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Web.WebPages.xml
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Web.WebPages.Deployment.xml
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Web.WebPages.Razor.xml
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\System.Web.Optimization.xml
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Newtonsoft.Json.xml
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Antlr3.Runtime.pdb
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\de\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\es\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\fr\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\it\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\ja\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\ko\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\pt\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\ru\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\zh-CHS\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\zh-CHT\Microsoft.ReportViewer.WebDesign.resources.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\de\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\es\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\fr\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\it\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\ja\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\ko\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\pt\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\ru\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\zh-CHS\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\zh-CHT\Microsoft.ReportViewer.WebForms.resources.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\es\System.Web.Helpers.resources.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\es\System.Web.Mvc.resources.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\es\System.Web.Razor.resources.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\es\System.Web.WebPages.resources.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\es\System.Web.Optimization.resources.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\obj\Release\SistemaERPnew.csproj.AssemblyReference.cache
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\obj\Release\RdlCompile.cache
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\obj\Release\RdlCompile.compiled
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\obj\Release\SistemaERPnew.csproj.CoreCompileInputs.cache
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\obj\Release\SistemaERPnew.csproj.CopyComplete
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\obj\Release\SistemaERPnew.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\obj\Release\SistemaERPnew.pdb
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\BouncyCastle.Crypto.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\ICSharpCode.SharpZipLib.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\NPOI.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\NPOI.OOXML.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\NPOI.OpenXml4Net.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\NPOI.OpenXmlFormats.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\BouncyCastle.Crypto.xml
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\ICSharpCode.SharpZipLib.pdb
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\ICSharpCode.SharpZipLib.xml
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\NPOI.pdb
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\NPOI.xml
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\NPOI.OOXML.pdb
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\NPOI.OOXML.xml
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\NPOI.OpenXml4Net.pdb
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\NPOI.OpenXml4Net.xml
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\SistemaERPnew\bin\NPOI.OpenXmlFormats.pdb

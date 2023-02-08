@@ -1,0 +1,15 @@
+﻿@using ReportViewerForMvc;
+@using Datos;
+@using Entidad;
+@{
+
+}
+@{
+    if (ViewBag.ReporteMargenXMes != null)
+    {
+    <div style="text-align:center; padding:50px;">
+        @Html.ReportViewer(ViewBag.ReporteMargenXMes as Microsoft.Reporting.WebForms.ReportViewer, new { style = "width: 1090px; height:900px;border:none; " })
+    </div>
+       
+    }
+}

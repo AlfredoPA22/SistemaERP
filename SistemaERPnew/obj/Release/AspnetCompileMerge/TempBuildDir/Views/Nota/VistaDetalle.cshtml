@@ -1,0 +1,78 @@
+﻿@using Datos;
+@using Entidad.Estados;
+@using Entidad;
+@model List<EDetalle>
+@{
+    ENotaTotal detalleTotal = Session["NotaTotal"] as ENotaTotal;
+}
+<div style="height:400px; overflow: scroll;">
+    <table class="table table-bordered table-hover table-head-fixed" id="tabla_detalleComprobante">
+        <thead>
+            <tr>
+                <th style="width:15%; text-align:left;">Codigo</th>
+                <th style="width:30%; text-align:left;">Producto</th>
+                <th style="width:20%; text-align:left;">Serie</th>
+                <th style="width:10%; text-align:center;">Cantidad</th>
+                <th style="width:10%; text-align:center;">Precio</th>
+                <th style="width:15%; text-align:center;">Subtotal</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            @{
+                foreach (var i in Model)
+                {
+                        <tr>
+                            <td>@i.CodigoArticulo</td>
+                            <td>@i.Articulo</td>
+                            <td>@i.NroSerie</td>
+                            <td style="text-align:right;">@i.Cantidad</td>
+                            <td style="text-align:right;">$. @(i.PrecioVenta)</td>
+                            <td style="text-align:right;">$. @i.SubTotal</td>
+
+                        </tr>
+
+                }
+
+
+            }
+        </tbody>
+    </table>
+
+</div>
+
+<br />
+<div class="row justify-content-end" style="padding-right: 0px; padding-bottom: 0px; margin-bottom: 0px; padding-top: 10px; margin-top: 0px;">
+    <div class="col-md-8" style="text-align:right;">
+        <div class="form-group">
+            <label></label>
+        </div>
+    </div>
+    <div class="col-md-2" style="text-align:right;">
+        <div class="form-group">
+            <label>TOTAL NOTA:</label>
+        </div>
+    </div>
+    @{
+
+        if (detalleTotal != null)
+        {
+            <div class="col-md-2" style="padding-right:20px">
+                <div class="form-group">
+                    <input type="text" class="form-control" id="itTotalDebe" value="@detalleTotal.Total" style="text-align:right;" disabled>
+                </div>
+            </div>
+        }
+        else
+        {
+            <div class="col-md-2" style="padding-right:20px">
+                <div class="form-group">
+                    <input type="text" class="form-control" id="itTotalDebe" value="@detalleTotal.Total" style="text-align:right;" disabled>
+                </div>
+            </div>
+
+        }
+
+    }
+
+</div>

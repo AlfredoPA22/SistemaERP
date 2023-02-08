@@ -1,0 +1,16 @@
+﻿@using Datos;
+@using Entidad.Estados;
+@model List<Cliente>
+
+    <label>Cliente</label>
+    <select class="form-control select2" style="width: 100%;" id="select_Cliente">
+        <option value=-1>Seleccione un Cliente</option>
+        @{
+            foreach (var i in Model)
+            {
+                <option value="@i.IdCliente">@i.Nombre @i.Apellido</option>
+            }
+
+        }
+
+    </select>

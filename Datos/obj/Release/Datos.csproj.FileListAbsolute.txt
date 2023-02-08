@@ -1,0 +1,24 @@
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\Datos\bin\Release\Datos.dll.config
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\Datos\bin\Release\Datos.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\Datos\bin\Release\Datos.pdb
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\Datos\bin\Release\EntityFramework.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\Datos\bin\Release\EntityFramework.SqlServer.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\Datos\bin\Release\EntityFramework.xml
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\Datos\bin\Release\EntityFramework.SqlServer.xml
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\Datos\obj\Release\Datos.csproj.AssemblyReference.cache
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\Datos\obj\Release\Datos.csproj.CoreCompileInputs.cache
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\Datos\obj\Release\Datos.csproj.CopyComplete
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\Datos\obj\Release\Datos.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\Datos\obj\Release\Datos.pdb
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\Datos\bin\Release\Datos.dll.config
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\Datos\bin\Release\Datos.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\Datos\bin\Release\Datos.pdb
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\Datos\bin\Release\EntityFramework.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\Datos\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\Datos\bin\Release\EntityFramework.xml
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\Datos\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\Datos\obj\Release\Datos.csproj.AssemblyReference.cache
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\Datos\obj\Release\Datos.csproj.CoreCompileInputs.cache
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\Datos\obj\Release\Datos.csproj.CopyComplete
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\Datos\obj\Release\Datos.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\Datos\obj\Release\Datos.pdb

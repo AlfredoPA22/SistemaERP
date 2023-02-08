@@ -1,0 +1,60 @@
+C:\Users\alfre\source\repos\SistemaERPnew\Entidad\bin\Debug\Entidad.dll
+C:\Users\alfre\source\repos\SistemaERPnew\Entidad\bin\Debug\Entidad.pdb
+C:\Users\alfre\source\repos\SistemaERPnew\Entidad\bin\Debug\Datos.dll
+C:\Users\alfre\source\repos\SistemaERPnew\Entidad\bin\Debug\Datos.pdb
+C:\Users\alfre\source\repos\SistemaERPnew\Entidad\bin\Debug\Datos.dll.config
+C:\Users\alfre\source\repos\SistemaERPnew\Entidad\obj\Debug\Entidad.csprojAssemblyReference.cache
+C:\Users\alfre\source\repos\SistemaERPnew\Entidad\obj\Debug\Entidad.csproj.CoreCompileInputs.cache
+C:\Users\alfre\source\repos\SistemaERPnew\Entidad\obj\Debug\Entidad.csproj.CopyComplete
+C:\Users\alfre\source\repos\SistemaERPnew\Entidad\obj\Debug\Entidad.dll
+C:\Users\alfre\source\repos\SistemaERPnew\Entidad\obj\Debug\Entidad.pdb
+C:\Users\alfre\source\repos\SistemaERPnew\Entidad\bin\Debug\EntityFramework.dll
+C:\Users\alfre\source\repos\SistemaERPnew\Entidad\bin\Debug\EntityFramework.xml
+C:\Users\alfre\OneDrive\Escritorio\universidad\Proyecto universidad\SistemaERPnew\Entidad\bin\Debug\Entidad.dll
+C:\Users\alfre\OneDrive\Escritorio\universidad\Proyecto universidad\SistemaERPnew\Entidad\bin\Debug\Entidad.pdb
+C:\Users\alfre\OneDrive\Escritorio\universidad\Proyecto universidad\SistemaERPnew\Entidad\bin\Debug\Datos.dll
+C:\Users\alfre\OneDrive\Escritorio\universidad\Proyecto universidad\SistemaERPnew\Entidad\bin\Debug\EntityFramework.dll
+C:\Users\alfre\OneDrive\Escritorio\universidad\Proyecto universidad\SistemaERPnew\Entidad\bin\Debug\Datos.pdb
+C:\Users\alfre\OneDrive\Escritorio\universidad\Proyecto universidad\SistemaERPnew\Entidad\bin\Debug\Datos.dll.config
+C:\Users\alfre\OneDrive\Escritorio\universidad\Proyecto universidad\SistemaERPnew\Entidad\bin\Debug\EntityFramework.xml
+C:\Users\alfre\OneDrive\Escritorio\universidad\Proyecto universidad\SistemaERPnew\Entidad\obj\Debug\Entidad.csprojAssemblyReference.cache
+C:\Users\alfre\OneDrive\Escritorio\universidad\Proyecto universidad\SistemaERPnew\Entidad\obj\Debug\Entidad.csproj.CoreCompileInputs.cache
+C:\Users\alfre\OneDrive\Escritorio\universidad\Proyecto universidad\SistemaERPnew\Entidad\obj\Debug\Entidad.csproj.CopyComplete
+C:\Users\alfre\OneDrive\Escritorio\universidad\Proyecto universidad\SistemaERPnew\Entidad\obj\Debug\Entidad.dll
+C:\Users\alfre\OneDrive\Escritorio\universidad\Proyecto universidad\SistemaERPnew\Entidad\obj\Debug\Entidad.pdb
+D:\universidad\Proyecto universidad16-04\SistemaERPnew\Entidad\bin\Debug\Entidad.dll
+D:\universidad\Proyecto universidad16-04\SistemaERPnew\Entidad\bin\Debug\Entidad.pdb
+D:\universidad\Proyecto universidad16-04\SistemaERPnew\Entidad\bin\Debug\Datos.dll
+D:\universidad\Proyecto universidad16-04\SistemaERPnew\Entidad\bin\Debug\EntityFramework.dll
+D:\universidad\Proyecto universidad16-04\SistemaERPnew\Entidad\bin\Debug\Datos.pdb
+D:\universidad\Proyecto universidad16-04\SistemaERPnew\Entidad\bin\Debug\Datos.dll.config
+D:\universidad\Proyecto universidad16-04\SistemaERPnew\Entidad\bin\Debug\EntityFramework.xml
+D:\universidad\Proyecto universidad16-04\SistemaERPnew\Entidad\obj\Debug\Entidad.csproj.AssemblyReference.cache
+D:\universidad\Proyecto universidad16-04\SistemaERPnew\Entidad\obj\Debug\Entidad.csproj.CoreCompileInputs.cache
+D:\universidad\Proyecto universidad16-04\SistemaERPnew\Entidad\obj\Debug\Entidad.csproj.CopyComplete
+D:\universidad\Proyecto universidad16-04\SistemaERPnew\Entidad\obj\Debug\Entidad.dll
+D:\universidad\Proyecto universidad16-04\SistemaERPnew\Entidad\obj\Debug\Entidad.pdb
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\Entidad\bin\Debug\Entidad.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\Entidad\bin\Debug\Entidad.pdb
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\Entidad\bin\Debug\Datos.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\Entidad\bin\Debug\EntityFramework.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\Entidad\bin\Debug\Datos.pdb
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\Entidad\bin\Debug\Datos.dll.config
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\Entidad\bin\Debug\EntityFramework.xml
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\Entidad\obj\Debug\Entidad.csproj.AssemblyReference.cache
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\Entidad\obj\Debug\Entidad.csproj.CoreCompileInputs.cache
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\Entidad\obj\Debug\Entidad.csproj.CopyComplete
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\Entidad\obj\Debug\Entidad.dll
+G:\universidad\Proyecto universidad16-04\SistemaERPnew\Entidad\obj\Debug\Entidad.pdb
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\Entidad\bin\Debug\Entidad.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\Entidad\bin\Debug\Entidad.pdb
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\Entidad\bin\Debug\Datos.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\Entidad\bin\Debug\EntityFramework.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\Entidad\bin\Debug\Datos.pdb
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\Entidad\bin\Debug\Datos.dll.config
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\Entidad\bin\Debug\EntityFramework.xml
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\Entidad\obj\Debug\Entidad.csproj.AssemblyReference.cache
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\Entidad\obj\Debug\Entidad.csproj.CoreCompileInputs.cache
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\Entidad\obj\Debug\Entidad.csproj.CopyComplete
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\Entidad\obj\Debug\Entidad.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\Entidad\obj\Debug\Entidad.pdb

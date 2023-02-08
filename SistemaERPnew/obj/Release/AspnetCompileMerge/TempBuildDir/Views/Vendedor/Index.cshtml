@@ -1,0 +1,498 @@
+﻿@using Datos;
+@using Entidad;
+@model List<Vendedor>
+
+@{
+    ViewBag.Title = "Vendedor";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@section EtiquetaHead
+    {
+
+    <link href="@Url.Content("~/Content/Principal/plugins/datatables-bs4/css/dataTables.bootstrap4.min.css")" rel="stylesheet" />
+    <link href="@Url.Content("~/Content/Principal/plugins/datatables-responsive/css/responsive.bootstrap4.min.css")" rel="stylesheet" />
+
+    <link href="@Url.Content("~/Content/bootstrap-datepicker/css/bootstrap-datepicker.css")" rel="stylesheet" />
+    <link href="@Url.Content("~/Content/bootstrap-datepicker/css/bootstrap-datepicker3.css")" rel="stylesheet" />
+}
+
+
+<section class="content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <!-- Default box -->
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">
+                            Vendedor
+                        </h3>
+                        <div class="row justify-content-end">
+
+                            <div class="form-group">
+                                <button class="btn btn-success" onclick="AbrirModalRegistro()">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-plus-square-fill" viewBox="0 0 16 16">
+                                        <path d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm6.5 4.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3a.5.5 0 0 1 1 0z" />
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+
+                        <br />
+                        <div class="form-group" id="contenedorLista">
+                            @Html.Partial("ListaVendedor", Model)
+                        </div>
+
+
+                    </div>
+                    <!-- /.card-body -->
+                    <div class="card-footer">
+                    </div>
+                    <!-- /.card-footer-->
+                </div>
+                <!-- /.card -->
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<div class="modal fade" id="modalEmpresa">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="tituloEmpresa"></h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <form role="form">
+
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-12 form-group alert alert-danger" id="mensajeModal" style="display:none">
+                        </div>
+                        <input type="text" class="form-control" id="itIdVendedor" hidden>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label>*Nombre</label>
+                                <input type="text" class="form-control" id="itNombre" placeholder="" maxlength="100">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label>*Apellido</label>
+                                <input type="text" class="form-control" id="itApellido" placeholder="" maxlength="100">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label>*Direccion</label>
+                                <input type="text" class="form-control" id="itDireccion" placeholder="" maxlength="100">
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label>*Telefono</label>
+                                <input type="number" class="form-control" id="itTelefono" placeholder="" maxlength="100">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label>Correo</label>
+                                <input type="text" class="form-control" id="itCorreo" placeholder="" maxlength="100">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label>Ci</label>
+                                <input type="text" class="form-control" id="itCi" placeholder="" maxlength="100">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </form>
+            <div class="modal-footer justify-content-end">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+                <button type="submit" class="btn btn-success" onclick="Registro()">Guardar</button>
+            </div>
+        </div>
+        <!-- /.modal-content -->
+
+
+
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+
+<div class="modal fade" id="modalEliminar">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">Confirmacion</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <input type="text" class="form-control" id="inputIdArticulo" hidden>
+                <p id="texto"></p>
+            </div>
+            <div class="modal-footer ">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Cancelar</button>
+                <button type="button" class="btn btn-primary" onclick="Eliminar()">Aceptar</button>
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+
+@section Scripts{
+
+    <script src="@Url.Content("~/Content/Principal/plugins/datatables/jquery.dataTables.min.js")"></script>
+    <script src="@Url.Content("~/Content/Principal/plugins/datatables-bs4/js/dataTables.bootstrap4.min.js")"></script>
+    <script src="@Url.Content("~/Content/Principal/plugins/datatables-responsive/js/dataTables.responsive.min.js")"></script>
+    <script src="@Url.Content("~/Content/Principal/plugins/datatables-responsive/js/responsive.bootstrap4.min.js")"></script>
+    <script src="@Url.Content("~/Content/bootstrap-datepicker/js/bootstrap-datepicker.min.js")"></script>
+    @* Buttons pdf <script src="//cdn.datatables.net/buttons/1.5.6/js/dataTables.buttons.min.js"></script>
+        <script src="//cdn.datatables.net/buttons/1.5.6/js/buttons.bootstrap4.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/pdfmake.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/vfs_fonts.js"></script>
+        <script src="//cdn.datatables.net/buttons/1.5.6/js/buttons.html5.min.js"></script>
+        <script src="//cdn.datatables.net/buttons/1.5.6/js/buttons.print.min.js"></script>
+        <script src="//cdn.datatables.net/buttons/1.5.6/js/buttons.colVis.min.js"></script>*@
+
+    @*<script src="@Url.Content("~/Scripts/metronic/global/scripts/datatable.js")"></script>
+
+        <script src="@Url.Content("~/Content/adminLte/plugins1/datatables/datatables.min.js")"></script>
+        <script src="@Url.Content("~/Content/adminLte/plugins1/datatables/plugins/bootstrap/datatables.bootstrap.js")"></script>
+    *@
+    <script type="text/javascript">
+
+        var TableDatatablesRowreorder = function () {
+
+            var initTable1 = function () {
+                var table = $('#tabla_articulo');
+
+                var oTable = table.dataTable({
+
+                    // Internationalisation. For more info refer to http://datatables.net/manual/i18n
+                    "language": {
+                        "aria": {
+                            "sortAscending": ": activate to sort column ascending",
+                            "sortDescending": ": activate to sort column descending"
+                        },
+                        "emptyTable": "No hay datos para mostrar",
+                        "info": "Mostrando _START_ a _END_ de _TOTAL_ Vendedor",
+                        "infoEmpty": "No hay datos para mostrar",
+                        "infoFiltered": "(Filtrado de _MAX_ total Vendedor)",
+                        "lengthMenu": "_MENU_ Vendedor",
+                        "search": "Buscar:",
+                        "zeroRecords": "No se encontraron coincidencias"
+                    },
+
+                    // Or you can use remote translation file
+                    //"language": {
+                    //   url: '//cdn.datatables.net/plug-ins/3cfcc339e89/i18n/Portuguese.json'
+                    //},
+
+                    // setup buttons extentension: http://datatables.net/extensions/buttons/
+                    /* buttons: [
+                         //{ extend: 'print', className: 'btn dark btn-outline', exportOptions: { columns: [0, 1, 2, 3] } },
+                         { extend: 'copy', className: 'btn purple btn-outline ', exportOptions: { columns: [0, 1, 2, 3] } },
+                         { extend: 'pdf', className: 'btn green btn-outline', exportOptions: { columns: [0, 1, 2, 3] } },
+                         { extend: 'csv', className: 'btn purple btn-outline ', exportOptions: { columns: [0, 1, 2, 3] } },
+                         { extend: 'excel', className: 'btn purple btn-outline ', exportOptions: { columns: [0, 1, 2, 3] } }
+                     ],*/
+                    columnDefs: [
+                        { orderable: false, targets: [3] }
+                    ],
+                    // setup rowreorder extension: http://datatables.net/extensions/rowreorder/
+
+                    "order": [
+                        [0, 'asc']
+                    ],
+
+                    "lengthMenu": [
+                        [5, 10, 15, 20, -1],
+                        [5, 10, 15, 20, "Todos"] // change per page values here
+                    ],
+                    // set the initial value
+                    "pageLength": 10,
+
+                    "dom": "<'row' <'col-md-12'B>><'row'<'col-md-6 col-sm-12'l><'col-md-6 col-sm-12'f>r><'table-scrollable't><'row'<'col-md-5 col-sm-12'i><'col-md-7 col-sm-12'p>>", // horizobtal scrollable datatable
+
+                    // Uncomment below line("dom" parameter) to fix the dropdown overflow issue in the datatable cells. The default datatable layout
+                    // setup uses scrollable div(table-scrollable) with overflow:auto to enable vertical scroll(see: assets/global/plugins/datatables/plugins/bootstrap/dataTables.bootstrap.js).
+                    // So when dropdowns used the scrollable div should be removed.
+                    //"dom": "<'row' <'col-md-12'T>><'row'<'col-md-6 col-sm-12'l><'col-md-6 col-sm-12'f>r>t<'row'<'col-md-5 col-sm-12'i><'col-md-7 col-sm-12'p>>",
+                });
+            }
+
+            return {
+
+                //main function to initiate the module
+                init: function () {
+
+                    if (!$().dataTable) {
+                        return;
+                    }
+
+                    initTable1();
+                }
+
+            };
+
+    }();
+
+        $(document).ready(function () {
+            TableDatatablesRowreorder.init();
+
+        });
+
+        function redireccionar(url) {
+            window.location = url;
+        }
+        function Registro() {
+
+            if ($("#itNombre").val().length === 0) {
+                return MostrarMensaje("Debe registrar un Nombre");
+            }
+            if ($("#itDireccion").val().length === 0) {
+                return MostrarMensaje("Debe registrar una Direccion");
+            }
+            if ($("#itTelefono").val() == 0) {
+                return MostrarMensaje("Debe registrar un Telefono");
+            }
+            if ($("#itIdVendedor").val().length === 0) {
+
+                $.ajax({
+                    url: "@Url.Action("Registro", "Vendedor")",
+                    cache: false,
+                            type: "POST",
+                            dataType: "script",
+                            data: {
+
+                                nombre: $("#itNombre").val(),
+                                direccion: $("#itDireccion").val(),
+                                apellido: $("#itApellido").val(),
+                                telefono: $("#itTelefono").val(),
+                                ci: $("#itCi").val(),
+                                correo: $("#itCorreo").val()
+
+
+
+                    }, success: function () {
+
+                    }
+                });
+
+
+
+            } else {
+
+
+                 $.ajax({
+                    url: "@Url.Action("Editar", "Vendedor")",
+                    cache: false,
+                            type: "POST",
+                            dataType: "script",
+                            data: {
+                                id: $("#itIdVendedor").val(),
+                                nombre: $("#itNombre").val(),
+                                direccion: $("#itDireccion").val(),
+                                apellido: $("#itApellido").val(),
+                                telefono: $("#itTelefono").val(),
+                                ci: $("#itCi").val(),
+                                correo: $("#itCorreo").val()
+
+
+                    }, success: function () {
+
+
+                    }
+                });
+
+            }
+
+        }
+
+        function ObtenerVendedor(id) {
+
+
+            $.ajax({
+                url: "@Url.Action("ObtenerVendedor", "Vendedor")",
+                cache: false,
+                type: "POST",
+                dataType: "json",
+                data: {
+                    idVendedor: id
+
+                }, success: function (result) {
+                    $("#itIdVendedor").val(result.Data.idVendedor);
+                    $("#itNombre").val(result.Data.Nombre);
+                    $("#itDireccion").val(result.Data.Direccion);
+                    $("#itApellido").val(result.Data.Apellido);
+                    $("#itTelefono").val(result.Data.Telefono);
+                    $("#itCi").val(result.Data.Ci);
+                    $("#itCorreo").val(result.Data.Correo);
+
+                        $("#tituloEmpresa").html("Modificar Vendedor");
+                        $("#modalEmpresa").modal('show');
+
+                }
+
+            })
+
+        }
+
+        var Id = null;
+
+        function AbrirModalEliminar(id,nombre) {
+
+            Id = id;
+           // $("#mensaje").hide();
+                if (Id == null) {
+                       return MostrarMensaje("Debe seleccionar un Vendedor");
+                }
+
+            var mesjModalEliminar = "¿Esta seguro que deseas eliminar El Vendedor " + nombre + " ?";
+             $("#texto").html(mesjModalEliminar);
+            $("#modalEliminar").modal('show');
+
+            console.log(id)
+
+
+        }
+
+        function Eliminar() {
+
+                if ( Id == null) {
+                       return MostrarMensaje("Debe seleccionar un Vendedor");
+                }
+
+                $.ajax({
+                        url: "@Url.Action("Eliminar", "Vendedor")",
+                        cache: false,
+                                type: "POST",
+                                dataType: "script",
+                    data: {
+                        id: Id
+                    }
+
+                });
+         }
+
+        function AbrirModalRegistro() {
+           // $("#mensaje").hide();
+            $("#modalEmpresa").modal('show');
+            $("#tituloEmpresa").html("Registrar Vendedor");
+            $("#itIdVendedor").val("");
+            $("#itNombre").val("");
+            $("#itDireccion").val("");
+            $("#itApellido").val("");
+            $("#itTelefono").val("");
+            $("#itCi").val("");
+            $("#itCorreo").val("");
+
+        }
+
+        function AbrirModalEditar(id,nombre,direccion,apellido,telefono,ci,correo) {
+           // $("#mensaje").hide();
+            $("#modalEmpresa").modal('show');
+            $("#tituloEmpresa").html("Modificar Vendedor");
+            $("#itIdVendedor").val(id);
+            $("#itNombre").val(nombre);
+            $("#itDireccion").val(direccion);
+            $("#itApellido").val(apellido);
+            $("#itTelefono").val(telefono);
+            $("#itCi").val(ci);
+            $("#itCorreo").val(correo);
+        }
+
+        function MostrarMensaje(msj) {
+                $("#modalEliminar").modal('hide');
+
+                 $(document).Toasts('create', {
+                        class: ' bg-danger',
+                        title: "Alerta",
+                        autohide: true,
+                        delay: 2000,
+                        body: msj
+                    });
+        }
+
+        function MostrarMensajeExito(msj) {
+
+                listar();
+                var msjbody = "Se Modifico el Vendedor Exitosamente";
+                if ($("#itIdVendedor").val().length === 0) {
+                    msjbody = "Se Registro el Vendedor Exitosamente";
+                }
+
+                $(document).Toasts('create', {
+                    class: 'bg-success',
+                    title: msj,
+                    autohide: true,
+                    delay: 2000,
+                    body: msjbody
+                });
+                $("#itIdVendedor").val("");
+                $("#itNombre").val("");
+                $("#itDireccion").val("");
+                $("#itApellido").val("");
+            $("#itTelefono").val("");
+            $("#itCi").val("");
+            $("#itCorreo").val("");
+
+
+
+                $("#modalEmpresa").modal('hide');
+               // console.log(msj);
+        }
+
+        function MostrarMensajeEliminacion(msj) {
+
+                listar();
+                var msjbody = "Se elimino el Vendedor";
+
+
+                $(document).Toasts('create', {
+                    class: 'bg-danger',
+                    title: msj,
+                    autohide: true,
+                    delay: 2000,
+                    body: msjbody
+                });
+
+                $("#modalEliminar").modal('hide');
+               // console.log(msj);
+        }
+
+        function listar()
+        {
+
+
+            $.ajax({
+                url: "@Url.Action("Listar", "Vendedor")",
+                cache: false,
+                data: {
+
+                },
+                type: "GET", success: function (html) {
+                    $("#contenedorLista").html(html);
+                     TableDatatablesRowreorder.init();
+                }
+            })
+
+        }
+
+
+    </script>
+}
