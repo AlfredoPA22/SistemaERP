@@ -2799,6 +2799,7 @@
     <Content Include="Views\Nota\ReporteMargenXMes.cshtml" />
     <Content Include="Views\Nota\ListarPeriodoNota.cshtml" />
     <Content Include="Views\Nota\ReporteMargenXMesParcial.cshtml" />
+    <Content Include="Views\Marca\gitprueba.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
