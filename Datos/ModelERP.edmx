@@ -223,6 +223,8 @@
           <Property Name="IdVendedor" Type="int" />
           <Property Name="IdCliente" Type="int" />
           <Property Name="IdProveedor" Type="int" />
+          <Property Name="TipoPago" Type="int" />
+          <Property Name="PorPagar" Type="float" />
         </EntityType>
         <EntityType Name="Origen">
           <Key>
@@ -231,6 +233,16 @@
           <Property Name="IdOrigen" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="Nombre" Type="varchar" MaxLength="100" />
           <Property Name="Abreviatura" Type="varchar" MaxLength="20" />
+        </EntityType>
+        <EntityType Name="Pago">
+          <Key>
+            <PropertyRef Name="IdPago" />
+          </Key>
+          <Property Name="IdPago" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="IdNota" Type="int" />
+          <Property Name="Fecha" Type="date" />
+          <Property Name="Monto" Type="float" />
+          <Property Name="Estado" Type="int" />
         </EntityType>
         <EntityType Name="Periodo">
           <Key>
@@ -758,6 +770,18 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
+        <Association Name="FK__Pago__IdNota__29221CFB">
+          <End Role="Nota" Type="Self.Nota" Multiplicity="0..1" />
+          <End Role="Pago" Type="Self.Pago" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Nota">
+              <PropertyRef Name="IdNota" />
+            </Principal>
+            <Dependent Role="Pago">
+              <PropertyRef Name="IdNota" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
         <Association Name="FK__Periodo__IdGesti__6D0D32F4">
           <End Role="Gestion" Type="Self.Gestion" Multiplicity="0..1" />
           <End Role="Periodo" Type="Self.Periodo" Multiplicity="*" />
@@ -800,6 +824,7 @@
           <EntitySet Name="Moneda" EntityType="Self.Moneda" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="Nota" EntityType="Self.Nota" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="Origen" EntityType="Self.Origen" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Pago" EntityType="Self.Pago" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="Periodo" EntityType="Self.Periodo" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="Proveedor" EntityType="Self.Proveedor" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="Usuario" EntityType="Self.Usuario" Schema="dbo" store:Type="Tables" />
@@ -963,6 +988,10 @@
           <AssociationSet Name="FK__Nota__IdVendedor__6C190EBB" Association="Self.FK__Nota__IdVendedor__6C190EBB">
             <End Role="Vendedor" EntitySet="Vendedor" />
             <End Role="Nota" EntitySet="Nota" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Pago__IdNota__29221CFB" Association="Self.FK__Pago__IdNota__29221CFB">
+            <End Role="Nota" EntitySet="Nota" />
+            <End Role="Pago" EntitySet="Pago" />
           </AssociationSet>
           <AssociationSet Name="FK__Periodo__IdGesti__6D0D32F4" Association="Self.FK__Periodo__IdGesti__6D0D32F4">
             <End Role="Gestion" EntitySet="Gestion" />
@@ -1227,6 +1256,9 @@
           <NavigationProperty Name="Proveedor" Relationship="ERPBDModel.FK__Nota__IdProveedo__73BA3083" FromRole="Nota" ToRole="Proveedor" />
           <NavigationProperty Name="Vendedor" Relationship="ERPBDModel.FK__Nota__IdVendedor__75A278F5" FromRole="Nota" ToRole="Vendedor" />
           <NavigationProperty Name="ArticuloSerie" Relationship="ERPBDModel.FK__ArticuloS__IdNot__03F0984C" FromRole="Nota" ToRole="ArticuloSerie" />
+          <Property Name="TipoPago" Type="Int32" />
+          <Property Name="PorPagar" Type="Double" />
+          <NavigationProperty Name="Pago" Relationship="ERPBDModel.FK__Pago__IdNota__29221CFB" FromRole="Nota" ToRole="Pago" />
         </EntityType>
         <EntityType Name="Periodo">
           <Key>
@@ -1874,6 +1906,11 @@
             <End Role="Nota" EntitySet="Nota" />
             <End Role="ArticuloSerie" EntitySet="ArticuloSerie" />
           </AssociationSet>
+          <EntitySet Name="Pago" EntityType="ERPBDModel.Pago" />
+          <AssociationSet Name="FK__Pago__IdNota__29221CFB" Association="ERPBDModel.FK__Pago__IdNota__29221CFB">
+            <End Role="Nota" EntitySet="Nota" />
+            <End Role="Pago" EntitySet="Pago" />
+          </AssociationSet>
         </EntityContainer>
         <EntityType Name="Marca">
           <Key>
@@ -2025,6 +2062,29 @@
               <PropertyRef Name="IdNota" />
             </Principal>
             <Dependent Role="ArticuloSerie">
+              <PropertyRef Name="IdNota" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityType Name="Pago">
+          <Key>
+            <PropertyRef Name="IdPago" />
+          </Key>
+          <Property Name="IdPago" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="IdNota" Type="Int32" />
+          <Property Name="Fecha" Type="DateTime" Precision="0" />
+          <Property Name="Monto" Type="Double" />
+          <NavigationProperty Name="Nota" Relationship="ERPBDModel.FK__Pago__IdNota__29221CFB" FromRole="Pago" ToRole="Nota" />
+          <Property Name="Estado" Type="Int32" />
+        </EntityType>
+        <Association Name="FK__Pago__IdNota__29221CFB">
+          <End Type="ERPBDModel.Nota" Role="Nota" Multiplicity="0..1" />
+          <End Type="ERPBDModel.Pago" Role="Pago" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Nota">
+              <PropertyRef Name="IdNota" />
+            </Principal>
+            <Dependent Role="Pago">
               <PropertyRef Name="IdNota" />
             </Dependent>
           </ReferentialConstraint>
@@ -2214,6 +2274,8 @@
           <EntitySetMapping Name="Nota">
             <EntityTypeMapping TypeName="ERPBDModel.Nota">
               <MappingFragment StoreEntitySet="Nota">
+                <ScalarProperty Name="PorPagar" ColumnName="PorPagar" />
+                <ScalarProperty Name="TipoPago" ColumnName="TipoPago" />
                 <ScalarProperty Name="IdProveedor" ColumnName="IdProveedor" />
                 <ScalarProperty Name="IdCliente" ColumnName="IdCliente" />
                 <ScalarProperty Name="IdVendedor" ColumnName="IdVendedor" />
@@ -2324,6 +2386,17 @@
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
+          <EntitySetMapping Name="Pago">
+            <EntityTypeMapping TypeName="ERPBDModel.Pago">
+              <MappingFragment StoreEntitySet="Pago">
+                <ScalarProperty Name="Estado" ColumnName="Estado" />
+                <ScalarProperty Name="Monto" ColumnName="Monto" />
+                <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+                <ScalarProperty Name="IdNota" ColumnName="IdNota" />
+                <ScalarProperty Name="IdPago" ColumnName="IdPago" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
         </EntityContainerMapping>
       </Mapping>
     </edmx:Mappings>
@@ -2410,6 +2483,8 @@
         <EntityTypeShape EntityType="ERPBDModel.ArticuloSerie" Width="1.5" PointX="15.75" PointY="17.25" />
         <AssociationConnector Association="ERPBDModel.FK__ArticuloS__IdArt__02FC7413" />
         <AssociationConnector Association="ERPBDModel.FK__ArticuloS__IdNot__03F0984C" />
+        <EntityTypeShape EntityType="ERPBDModel.Pago" Width="1.5" PointX="12.75" PointY="21.75" />
+        <AssociationConnector Association="ERPBDModel.FK__Pago__IdNota__29221CFB" />
       </Diagram>
     </Diagrams>
   </Designer>

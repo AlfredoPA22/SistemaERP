@@ -46,5 +46,6 @@ namespace Datos
         public virtual DbSet<Proveedor> Proveedor { get; set; }
         public virtual DbSet<Vendedor> Vendedor { get; set; }
         public virtual DbSet<ArticuloSerie> ArticuloSerie { get; set; }
+        public virtual DbSet<Pago> Pago { get; set; }
     }
 }

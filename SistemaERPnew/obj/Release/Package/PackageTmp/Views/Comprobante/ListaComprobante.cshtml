@@ -46,15 +46,15 @@
             @{
                 if (i.Estado == (int)EstadoComprobante.Abierto)
                 {
-                    <td>Abierto</td>
+                        <td style="text-align:center"><button class="btn btn-success">Abierto</button></td>
                 }
                 else if (i.Estado == (int)EstadoComprobante.Cerrado)
                 {
-                    <td>Cerrado</td>
+                        <td style="text-align:center"><button class="btn btn-warning">Cerrado</button></td>
                 }
                 else if (i.Estado == (int)EstadoComprobante.Anualdo)
                 {
-                    <td>Anulado</td>
+                        <td style="text-align:center"><button class="btn btn-danger">Anulado</button></td>
                 }
 
             }

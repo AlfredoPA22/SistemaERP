@@ -1222,7 +1222,7 @@ namespace SistemaERPnew.Controllers
 
         }
         [HttpPost]
-        public ActionResult RegistroVenta(string fecha, int tiponota, string descripcion,int idcliente,int idvendedor)
+        public ActionResult RegistroVenta(string fecha, int tiponota,int tipopago, string descripcion,int idcliente,int idvendedor)
         {
 
             try
@@ -1242,22 +1242,36 @@ namespace SistemaERPnew.Controllers
                 Empresa empresa = (Empresa)Session["Empresa"];
 
                 int nronotav = logica.obtenerNroNotaVenta(empresa.IdEmpresa);
+                int estado = 0;
+                double porpagar = 0;
+
+                List<EDetalle> detalleventa = Session["DetalleNotaVenta"] as List<EDetalle>;
+                ENotaTotal total = Session["NotaTotal"] as ENotaTotal;
+                if (tipopago == (int)TipoPago.Contado)
+                {
+                    estado = (int)EstadoNota.Activo;
+                }else if(tipopago == (int)TipoPago.PorPagar)
+                {
+                    estado = (int)EstadoNota.xpagar;
+                    porpagar = total.Total;
+                }
+
                
                     Nota Entidad = new Nota()
                     {
                         NroNota = nronotav,
                         Descripcion = descripcion,
                         Fecha = FechaNota,
-                        Estado = (int)EstadoNota.Activo,
+                        Estado = estado,
                         Tipo = tiponota,
+                        TipoPago = tipopago,
                         IdEmpresa = empresa.IdEmpresa,
                         IdUsuario = usuario.IdUsuario,
                         IdCliente=idcliente,
-                        IdVendedor= idvendedor
-
+                        IdVendedor= idvendedor,
+                        PorPagar=porpagar
                     };
-                    List<EDetalle> detalleventa = Session["DetalleNotaVenta"] as List<EDetalle>;
-                    ENotaTotal total = Session["NotaTotal"] as ENotaTotal;
+                    
                     Entidad = logica.RegistroVenta(Entidad, detalleventa, total);
                 
                 return JavaScript("redireccionar('" + Url.Action("ENotaVenta", "Nota", new { idnota = Entidad.IdNota }) + "');");

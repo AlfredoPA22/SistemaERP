@@ -65,6 +65,7 @@
     <Compile Include="LMoneda.cs" />
     <Compile Include="LNota.cs" />
     <Compile Include="LOrigen.cs" />
+    <Compile Include="LPago.cs" />
     <Compile Include="LPeriodo.cs" />
     <Compile Include="LProveedor.cs" />
     <Compile Include="LUsuario.cs" />

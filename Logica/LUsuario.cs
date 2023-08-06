@@ -59,6 +59,7 @@ namespace Logica
             permisos.Add(new Permisos("Cliente"));
             permisos.Add(new Permisos("Vendedor"));
             permisos.Add(new Permisos("Usuario"));
+            permisos.Add(new Permisos("Pago"));
 
             foreach (var i in permisos )
             {

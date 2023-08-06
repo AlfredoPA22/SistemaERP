@@ -22,3 +22,15 @@ C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16
 C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\Entidad\obj\Release\Entidad.csproj.CopyComplete
 C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\Entidad\obj\Release\Entidad.dll
 C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\Entidad\obj\Release\Entidad.pdb
+C:\Users\alfre\OneDrive\Escritorio\proyectos\Sistema ERP\SistemaERPnew\Entidad\bin\Release\Entidad.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\Sistema ERP\SistemaERPnew\Entidad\bin\Release\Entidad.pdb
+C:\Users\alfre\OneDrive\Escritorio\proyectos\Sistema ERP\SistemaERPnew\Entidad\bin\Release\Datos.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\Sistema ERP\SistemaERPnew\Entidad\bin\Release\EntityFramework.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\Sistema ERP\SistemaERPnew\Entidad\bin\Release\Datos.pdb
+C:\Users\alfre\OneDrive\Escritorio\proyectos\Sistema ERP\SistemaERPnew\Entidad\bin\Release\Datos.dll.config
+C:\Users\alfre\OneDrive\Escritorio\proyectos\Sistema ERP\SistemaERPnew\Entidad\bin\Release\EntityFramework.xml
+C:\Users\alfre\OneDrive\Escritorio\proyectos\Sistema ERP\SistemaERPnew\Entidad\obj\Release\Entidad.csproj.AssemblyReference.cache
+C:\Users\alfre\OneDrive\Escritorio\proyectos\Sistema ERP\SistemaERPnew\Entidad\obj\Release\Entidad.csproj.CoreCompileInputs.cache
+C:\Users\alfre\OneDrive\Escritorio\proyectos\Sistema ERP\SistemaERPnew\Entidad\obj\Release\Entidad.csproj.CopyComplete
+C:\Users\alfre\OneDrive\Escritorio\proyectos\Sistema ERP\SistemaERPnew\Entidad\obj\Release\Entidad.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\Sistema ERP\SistemaERPnew\Entidad\obj\Release\Entidad.pdb

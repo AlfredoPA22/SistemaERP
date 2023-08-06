@@ -179,6 +179,7 @@ namespace Logica
 
             }
         }
+        
         public ERGraficos2 obtenerProductosBajos(int idempresa)
         {
             using (var esquema = GetEsquema())
@@ -249,6 +250,7 @@ namespace Logica
                         c.IdNota = notas.IdNota;
                         c.IdEmpresa = notas.IdEmpresa;
                         c.Tipo = notas.Tipo;
+                        c.TipoPago = notas.TipoPago;
                         c.IdUsuario = notas.IdUsuario;
                         c.Total = notas.Total;
                         c.NroNota = notas.NroNota;
@@ -520,6 +522,7 @@ namespace Logica
 
             }
         }
+
         public int obtenerNroNotaCompra(int idempresa)
         {
             using (var esquema = GetEsquema())

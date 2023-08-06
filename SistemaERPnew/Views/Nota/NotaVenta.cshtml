@@ -71,7 +71,7 @@
                                     <input type="text" class="form-control" id="itNroNota" placeholder="" maxlength="100" disabled>
                                 </div>
                             </div>
-                            <div class="col-md-3">
+                            <div class="col-md-2">
                                 <div class="form-group">
                                     <label>Estado</label>
                                     <input type="text" class="form-control" id="itEstado" placeholder="Abierto" maxlength="100" disabled>
@@ -84,11 +84,20 @@
                                 </div>
                             </div>
 
-                            <div class="col-md-3">
+                            <div class="col-md-2">
                                 <div class="form-group">
                                     <label>Tipo de Nota</label>
                                     <select class="form-control select2" style="width: 100%;" id="select_TipoNota" disabled>
                                         <option value="2">Venta</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-2">
+                                <div class="form-group">
+                                    <label>Tipo de Pago</label>
+                                    <select class="form-control select2" style="width: 100%;" id="select_TipoPago">
+                                        <option value="1">Al contado</option>
+                                        <option value="2">Por Pagar</option>
                                     </select>
                                 </div>
                             </div>
@@ -494,7 +503,8 @@
             $("#select_Cliente").select2();
             $("#select_Vendedor").select2();
             $("#select_Serie").select2();
-
+            $("#select_TipoPago").select2();
+            
             $("#select_Articulo2").select2();
         });
         //funciones de detalle de comprobante inicio -------------
@@ -638,6 +648,7 @@
                             data: {
                                 fecha: $("#itFecha").val(),
                                 tiponota: $("#select_TipoNota").val(),
+                                tipopago: $("#select_TipoPago").val(),
                                 descripcion: $("#itDescripcion").val(),
                                 idcliente: $("#select_Cliente").val(),
                                 idvendedor: $("#select_Vendedor").val()

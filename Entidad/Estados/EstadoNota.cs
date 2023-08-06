@@ -10,7 +10,8 @@ namespace Entidad.Estados
     {
 
         Activo = 1,
-        Anulado = 2
+        Anulado = 2,
+        xpagar = 3
 
     }
 }

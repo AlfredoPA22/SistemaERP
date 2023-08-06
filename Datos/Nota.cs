@@ -19,6 +19,7 @@ namespace Datos
         {
             this.Lote = new HashSet<Lote>();
             this.ArticuloSerie = new HashSet<ArticuloSerie>();
+            this.Pago = new HashSet<Pago>();
         }
     
         public int IdNota { get; set; }
@@ -34,6 +35,8 @@ namespace Datos
         public Nullable<int> IdVendedor { get; set; }
         public Nullable<int> IdCliente { get; set; }
         public Nullable<int> IdProveedor { get; set; }
+        public Nullable<int> TipoPago { get; set; }
+        public double PorPagar { get; set; }
     
         public virtual Comprobante Comprobante { get; set; }
         public virtual Empresa Empresa { get; set; }
@@ -45,5 +48,7 @@ namespace Datos
         public virtual Vendedor Vendedor { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<ArticuloSerie> ArticuloSerie { get; set; }
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<Pago> Pago { get; set; }
     }
 }

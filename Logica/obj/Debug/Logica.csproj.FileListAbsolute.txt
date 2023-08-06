@@ -100,3 +100,20 @@ C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16
 C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\Logica\obj\Debug\Logica.csproj.CopyComplete
 C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\Logica\obj\Debug\Logica.dll
 C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\Logica\obj\Debug\Logica.pdb
+C:\Users\alfre\OneDrive\Escritorio\proyectos\Sistema ERP\SistemaERPnew\Logica\bin\Debug\Logica.dll.config
+C:\Users\alfre\OneDrive\Escritorio\proyectos\Sistema ERP\SistemaERPnew\Logica\bin\Debug\Logica.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\Sistema ERP\SistemaERPnew\Logica\bin\Debug\Logica.pdb
+C:\Users\alfre\OneDrive\Escritorio\proyectos\Sistema ERP\SistemaERPnew\Logica\bin\Debug\Datos.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\Sistema ERP\SistemaERPnew\Logica\bin\Debug\Entidad.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\Sistema ERP\SistemaERPnew\Logica\bin\Debug\EntityFramework.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\Sistema ERP\SistemaERPnew\Logica\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\Sistema ERP\SistemaERPnew\Logica\bin\Debug\Datos.pdb
+C:\Users\alfre\OneDrive\Escritorio\proyectos\Sistema ERP\SistemaERPnew\Logica\bin\Debug\Datos.dll.config
+C:\Users\alfre\OneDrive\Escritorio\proyectos\Sistema ERP\SistemaERPnew\Logica\bin\Debug\Entidad.pdb
+C:\Users\alfre\OneDrive\Escritorio\proyectos\Sistema ERP\SistemaERPnew\Logica\bin\Debug\EntityFramework.xml
+C:\Users\alfre\OneDrive\Escritorio\proyectos\Sistema ERP\SistemaERPnew\Logica\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\alfre\OneDrive\Escritorio\proyectos\Sistema ERP\SistemaERPnew\Logica\obj\Debug\Logica.csproj.AssemblyReference.cache
+C:\Users\alfre\OneDrive\Escritorio\proyectos\Sistema ERP\SistemaERPnew\Logica\obj\Debug\Logica.csproj.CoreCompileInputs.cache
+C:\Users\alfre\OneDrive\Escritorio\proyectos\Sistema ERP\SistemaERPnew\Logica\obj\Debug\Logica.csproj.CopyComplete
+C:\Users\alfre\OneDrive\Escritorio\proyectos\Sistema ERP\SistemaERPnew\Logica\obj\Debug\Logica.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\Sistema ERP\SistemaERPnew\Logica\obj\Debug\Logica.pdb

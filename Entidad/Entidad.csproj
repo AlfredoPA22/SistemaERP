@@ -53,6 +53,7 @@
     <Compile Include="ELote.cs" />
     <Compile Include="EMarca.cs" />
     <Compile Include="EOrigen.cs" />
+    <Compile Include="EPago.cs" />
     <Compile Include="EProveedor.cs" />
     <Compile Include="ERArticulo.cs" />
     <Compile Include="ERDatosBasico.cs" />
@@ -65,11 +66,13 @@
     <Compile Include="Estados\EstadoLote.cs" />
     <Compile Include="Estados\EstadoMonedaEmpresa.cs" />
     <Compile Include="Estados\EstadoNota.cs" />
+    <Compile Include="Estados\EstadoPago.cs" />
     <Compile Include="Estados\EstadoPeriodo.cs" />
     <Compile Include="Estados\Integracion.cs" />
     <Compile Include="Estados\TipoComprobante.cs" />
     <Compile Include="Estados\TipoCuenta.cs" />
     <Compile Include="Estados\TipoNota.cs" />
+    <Compile Include="Estados\TipoPago.cs" />
     <Compile Include="Estados\TipoUsuario.cs" />
     <Compile Include="EUsuario.cs" />
     <Compile Include="EVendedor.cs" />

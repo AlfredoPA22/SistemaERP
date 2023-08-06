@@ -9,7 +9,6 @@
     List<ECliente> clientes = ViewBag.Cliente;
     List<EVendedor> vendedores = ViewBag.Vendedor;
 
-
     int NroVenta = ViewBag.NroNotaVenta;
 
 }
@@ -93,10 +92,10 @@
                                     </select>
                                 </div>
                             </div>
-                            <div class="col-md-3">
-                                <div class="form-group">
+                            <div class="col-md-2">
+                                <div class="form-group" id="contenedorCliente">
                                     <label>Cliente</label>
-                                    <select class="form-control select2"  style="width: 100%;" id="select_Cliente">
+                                    <select class="form-control select2" style="width: 100%;" id="select_Cliente">
                                         <option value=-1>Seleccione un Cliente</option>
                                         @{
                                             foreach (var i in clientes)
@@ -108,43 +107,55 @@
 
                                     </select>
                                 </div>
-                            </div>
-                                <div class="col-md-3">
-                                    <div class="form-group">
-                                        <label>Vendedor</label>
-                                        <select class="form-control select2" style="width: 100%;" id="select_Vendedor">
-                                            <option value=-1>Seleccione un Vendedor</option>
-                                            @{
-                                                foreach (var i in vendedores)
-                                                {
-                                                    <option value="@i.idVendedor">@i.Nombre @i.Apellido</option>
-                                                }
 
+                            </div>
+                            <div style="text-align:center" class="col-md-1">
+                                <div class="form-group">
+                                    <label>Registrar</label>
+                                    <button class="btn btn-warning" onclick="AbrirModalRegistroCliente()">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-plus-square-fill" viewBox="0 0 16 16">
+                                            <path d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm6.5 4.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3a.5.5 0 0 1 1 0z" />
+                                        </svg>
+                                    </button>
+                                </div>
+
+                            </div>
+                            <div class="col-md-3">
+                                <div class="form-group">
+                                    <label>Vendedor</label>
+                                    <select class="form-control select2" style="width: 100%;" id="select_Vendedor">
+                                        <option value=-1>Seleccione un Vendedor</option>
+                                        @{
+                                            foreach (var i in vendedores)
+                                            {
+                                                <option value="@i.idVendedor">@i.Nombre @i.Apellido</option>
                                             }
-                                        </select>
-                                    </div>
-                                </div>
-                                <div class="col-md-4">
-                                    <div class="form-group">
-                                        <label>Descripcion</label>
-                                        <input class="form-control" id="itDescripcion" placeholder="Descripcion de Nota" maxlength="100" />
-                                    </div>
-                                </div>
-                                <div class="col-md-2">
-                                    <div class="form-group" style="text-align:left;">
-                                        <label>Agregar Articulo</label>
-                                        <div class="form-group" style="text-align:center">
-                                            <button class="btn btn-success" onclick="AbrirModalRegistro()">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-plus-square-fill" viewBox="0 0 16 16">
-                                                    <path d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm6.5 4.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3a.5.5 0 0 1 1 0z" />
-                                                </svg>
-                                            </button>
-                                        </div>
 
-                                    </div>
+                                        }
+                                    </select>
                                 </div>
-
                             </div>
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label>Descripcion</label>
+                                    <input class="form-control" id="itDescripcion" placeholder="Descripcion de Nota" maxlength="100" />
+                                </div>
+                            </div>
+                            <div class="col-md-2">
+                                <div class="form-group" style="text-align:left;">
+                                    <label>Agregar Articulo</label>
+                                    <div class="form-group" style="text-align:center">
+                                        <button class="btn btn-success" onclick="AbrirModalRegistro()">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-plus-square-fill" viewBox="0 0 16 16">
+                                                <path d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm6.5 4.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3a.5.5 0 0 1 1 0z" />
+                                            </svg>
+                                        </button>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
                         <div class="form-group" id="contenedorDetalle" style="padding-bottom:0px;margin-bottom:0px">
                             @Html.Partial("ListaDetalle", new List<EDetalle>())
                         </div>
@@ -307,6 +318,77 @@
     <!-- /.modal-dialog -->
 </div>
 <!-- FINAL DE MODAL PARA ELIMINAR DETALLE -->
+
+<!-- MODAL CLIENTE-->
+<div class="modal fade" id="modalCliente">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="tituloRegistroCliente"></h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <form role="form">
+
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-12 form-group alert alert-danger" id="mensajeModal" style="display:none">
+                        </div>
+                        <input type="text" class="form-control" id="itIdClienteRegistro" hidden>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label>*Nombre</label>
+                                <input type="text" class="form-control" id="itNombreRegistro" placeholder="" maxlength="100">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label>*Apellido</label>
+                                <input type="text" class="form-control" id="itApellidoRegistro" placeholder="" maxlength="100">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label>*Direccion</label>
+                                <input type="text" class="form-control" id="itDireccionRegistro" placeholder="" maxlength="100">
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label>*Telefono</label>
+                                <input type="number" class="form-control" id="itTelefonoRegistro" placeholder="" maxlength="100">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label>Correo</label>
+                                <input type="text" class="form-control" id="itCorreoRegistro" placeholder="" maxlength="100">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label>Ci</label>
+                                <input type="text" class="form-control" id="itCiRegistro" placeholder="" maxlength="100">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </form>
+            <div class="modal-footer justify-content-end">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+                <button type="submit" class="btn btn-success" onclick="RegistroCliente()">Guardar</button>
+            </div>
+        </div>
+        <!-- /.modal-content -->
+
+
+
+    </div>
+    <!-- /.modal-dialog -->
+</div>
 @section Scripts{
 
     <script src="@Url.Content("~/Content/Principal/plugins/datatables/jquery.dataTables.min.js")"></script>
@@ -416,7 +498,6 @@
             $("#select_Articulo2").select2();
         });
         //funciones de detalle de comprobante inicio -------------
-
         //funciones de detalle de comprobante fin-----------------------
         function redireccionar(url) {
             window.location = url;
@@ -528,7 +609,20 @@
             }
 
         }
+        function listarClientes()
+        {
+            $.ajax({
+                url: "@Url.Action("Listar2", "Cliente")",
+                cache: false,
+                data: {
+                },
+                type: "GET", success: function (html) {
+                    $("#contenedorCliente").html(html);
+                    $("#select_Cliente").select2();
+                }
+            })
 
+        }
         function RegistroNota() {
             if ($("#select_Cliente").val() == -1) {
                 return MostrarMensaje("Seleccione un Cliente.");
@@ -551,6 +645,43 @@
 
                     }
                 });
+        }
+        function RegistroCliente() {
+
+            if ($("#itNombreRegistro").val().length === 0) {
+                return MostrarMensaje("Debe registrar un Nombre");
+            }
+            if ($("#itDireccionRegistro").val().length === 0) {
+                return MostrarMensaje("Debe registrar una Direccion");
+            }
+            if ($("#itTelefonoRegistro").val() == 0) {
+                return MostrarMensaje("Debe registrar un Telefono");
+            }
+            if ($("#itIdClienteRegistro").val().length === 0) {
+
+                $.ajax({
+                    url: "@Url.Action("Registro", "Cliente")",
+                    cache: false,
+                            type: "POST",
+                            dataType: "script",
+                            data: {
+
+                                nombre: $("#itNombreRegistro").val(),
+                                direccion: $("#itDireccionRegistro").val(),
+                                apellido: $("#itApellidoRegistro").val(),
+                                telefono: $("#itTelefonoRegistro").val(),
+                                ci: $("#itCiRegistro").val(),
+                                correo: $("#itCorreoRegistro").val()
+
+
+
+                    }, success: function () {
+
+                    }
+                });
+
+            }
+
         }
         var Id = null;
         function Eliminar() {
@@ -599,7 +730,7 @@
             elem.addClass(newClass);
         }
         function AbrirModalEditarDetalle(iddetalle, idarticulo, cantidad, nrolote, precioventa, subtotal, idserie) {
-            
+
             $("#itIdDetalle").val(iddetalle);
             if (idserie == 0) {
                 $("#select_Serie").val(-1).trigger('change');
@@ -625,7 +756,7 @@
                 $("#itPrecioVenta3").val(precioventa);
                 $("#select_Serie").val(idserie).trigger('change');
             }
-            
+
             $("#modalEmpresa2").modal('show');
 
         }
@@ -651,7 +782,18 @@
             $("#modalEliminar").modal('show');
             console.log(iddetalle)
         }
-
+        function AbrirModalRegistroCliente() {
+            // $("#mensaje").hide();
+            $("#modalCliente").modal('show');
+            $("#tituloRegistroCliente").html("Registrar Cliente");
+            $("#itIdClienteRegistro").val("");
+            $("#itNombreRegistro").val("");
+            $("#itDireccionRegistro").val("");
+            $("#itApellidoRegistro").val("");
+            $("#itTelefonoRegistro").val("");
+            $("#itCiRegistro").val("");
+            $("#itCorreoRegistro").val("");
+        }
     //Modales de detalle Fin ---------------------
         function MostrarMensaje(msj) {
             $("#modalEliminar").modal('hide');
@@ -683,6 +825,33 @@
                 });
 
         }
+        function MostrarMensajeExitoCliente(msj, idcliente) {
+            //$("#select_Cliente").select2();
+            //$("#contenedorCliente").load(location.href + " #contenedorCliente");
+            listarClientes();
+            var msjbody = "Se Modifico el cliente Exitosamente";
+            if ($("#itIdClienteRegistro").val().length === 0) {
+                msjbody = "Se Registro el Cliente Exitosamente";
+            }
+            $(document).Toasts('create', {
+                class: 'bg-success',
+                title: msj,
+                autohide: true,
+                delay: 2000,
+                body: msjbody
+            });
+
+            $("#itIdClienteRegistro").val("");
+            $("#itNombreRegistro").val("");
+            $("#itDireccionRegistro").val("");
+            $("#itApellidoRegistro").val("");
+            $("#itTelefonoRegistro").val("");
+            $("#itCiRegistro").val("");
+            $("#itCorreoRegistro").val("");
+            $("#modalCliente").modal('hide');
+
+            // console.log(msj);
+        }
         function redireccionarIndex() {
             window.location.href = "@Url.Action("Index", "Comprobante")";
         }
@@ -713,7 +882,6 @@
 
                 $("#modalEliminar").modal('hide');
         }
-
        //mensajes de detalle inicio -------------
         function MensajeExitoDetalleVenta(msj) {
             $(document).Toasts('create', {
@@ -727,7 +895,7 @@
                 $("#itIdDetalle").val("0");
             $("#itIdArticulo2").val("0");
             $("#itIdSerie2").val("0");
-            
+
                 $("#itCantidad2").val("");
                 $("#itPrecioVenta2").val("");
                 $("#itStock").val("");
@@ -777,7 +945,6 @@
         }
         //mensajes de detalle final ---------
         //listar detalle de lotes -----
-
         function listar2()
         {
             $.ajax({
@@ -943,7 +1110,7 @@
                     $("#itSubTotal2").val(0);
                 }
             }
-           
+
         }
         function ObetenerArticuloSerie() {
             var idserie = $("#select_Serie").val();
@@ -975,7 +1142,6 @@
             }
 
         }
-
 
     </script>
 }

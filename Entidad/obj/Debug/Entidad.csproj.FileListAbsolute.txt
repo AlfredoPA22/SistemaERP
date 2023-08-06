@@ -58,3 +58,15 @@ C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16
 C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\Entidad\obj\Debug\Entidad.csproj.CopyComplete
 C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\Entidad\obj\Debug\Entidad.dll
 C:\Users\alfre\OneDrive\Escritorio\proyectos\proyecto erp\Proyecto universidad16-04\SistemaERPnew\Entidad\obj\Debug\Entidad.pdb
+C:\Users\alfre\OneDrive\Escritorio\proyectos\Sistema ERP\SistemaERPnew\Entidad\bin\Debug\Entidad.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\Sistema ERP\SistemaERPnew\Entidad\bin\Debug\Entidad.pdb
+C:\Users\alfre\OneDrive\Escritorio\proyectos\Sistema ERP\SistemaERPnew\Entidad\bin\Debug\Datos.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\Sistema ERP\SistemaERPnew\Entidad\bin\Debug\EntityFramework.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\Sistema ERP\SistemaERPnew\Entidad\bin\Debug\Datos.pdb
+C:\Users\alfre\OneDrive\Escritorio\proyectos\Sistema ERP\SistemaERPnew\Entidad\bin\Debug\Datos.dll.config
+C:\Users\alfre\OneDrive\Escritorio\proyectos\Sistema ERP\SistemaERPnew\Entidad\bin\Debug\EntityFramework.xml
+C:\Users\alfre\OneDrive\Escritorio\proyectos\Sistema ERP\SistemaERPnew\Entidad\obj\Debug\Entidad.csproj.AssemblyReference.cache
+C:\Users\alfre\OneDrive\Escritorio\proyectos\Sistema ERP\SistemaERPnew\Entidad\obj\Debug\Entidad.csproj.CoreCompileInputs.cache
+C:\Users\alfre\OneDrive\Escritorio\proyectos\Sistema ERP\SistemaERPnew\Entidad\obj\Debug\Entidad.csproj.CopyComplete
+C:\Users\alfre\OneDrive\Escritorio\proyectos\Sistema ERP\SistemaERPnew\Entidad\obj\Debug\Entidad.dll
+C:\Users\alfre\OneDrive\Escritorio\proyectos\Sistema ERP\SistemaERPnew\Entidad\obj\Debug\Entidad.pdb

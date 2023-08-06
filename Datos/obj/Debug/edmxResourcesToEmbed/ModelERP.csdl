@@ -250,6 +250,9 @@
     <NavigationProperty Name="Proveedor" Relationship="ERPBDModel.FK__Nota__IdProveedo__73BA3083" FromRole="Nota" ToRole="Proveedor" />
     <NavigationProperty Name="Vendedor" Relationship="ERPBDModel.FK__Nota__IdVendedor__75A278F5" FromRole="Nota" ToRole="Vendedor" />
     <NavigationProperty Name="ArticuloSerie" Relationship="ERPBDModel.FK__ArticuloS__IdNot__03F0984C" FromRole="Nota" ToRole="ArticuloSerie" />
+    <Property Name="TipoPago" Type="Int32" />
+    <Property Name="PorPagar" Type="Double" />
+    <NavigationProperty Name="Pago" Relationship="ERPBDModel.FK__Pago__IdNota__29221CFB" FromRole="Nota" ToRole="Pago" />
   </EntityType>
   <EntityType Name="Periodo">
     <Key>
@@ -897,6 +900,11 @@
       <End Role="Nota" EntitySet="Nota" />
       <End Role="ArticuloSerie" EntitySet="ArticuloSerie" />
     </AssociationSet>
+    <EntitySet Name="Pago" EntityType="ERPBDModel.Pago" />
+    <AssociationSet Name="FK__Pago__IdNota__29221CFB" Association="ERPBDModel.FK__Pago__IdNota__29221CFB">
+      <End Role="Nota" EntitySet="Nota" />
+      <End Role="Pago" EntitySet="Pago" />
+    </AssociationSet>
   </EntityContainer>
   <EntityType Name="Marca">
     <Key>
@@ -1048,6 +1056,29 @@
         <PropertyRef Name="IdNota" />
       </Principal>
       <Dependent Role="ArticuloSerie">
+        <PropertyRef Name="IdNota" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="Pago">
+    <Key>
+      <PropertyRef Name="IdPago" />
+    </Key>
+    <Property Name="IdPago" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IdNota" Type="Int32" />
+    <Property Name="Fecha" Type="DateTime" Precision="0" />
+    <Property Name="Monto" Type="Double" />
+    <NavigationProperty Name="Nota" Relationship="ERPBDModel.FK__Pago__IdNota__29221CFB" FromRole="Pago" ToRole="Nota" />
+    <Property Name="Estado" Type="Int32" />
+  </EntityType>
+  <Association Name="FK__Pago__IdNota__29221CFB">
+    <End Type="ERPBDModel.Nota" Role="Nota" Multiplicity="0..1" />
+    <End Type="ERPBDModel.Pago" Role="Pago" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Nota">
+        <PropertyRef Name="IdNota" />
+      </Principal>
+      <Dependent Role="Pago">
         <PropertyRef Name="IdNota" />
       </Dependent>
     </ReferentialConstraint>

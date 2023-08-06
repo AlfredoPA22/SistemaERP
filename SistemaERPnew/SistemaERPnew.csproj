@@ -319,6 +319,7 @@
     <Compile Include="Controllers\MonedaController.cs" />
     <Compile Include="Controllers\NotaController.cs" />
     <Compile Include="Controllers\OrigenController.cs" />
+    <Compile Include="Controllers\PagoController.cs" />
     <Compile Include="Controllers\PeriodoController.cs" />
     <Compile Include="Controllers\ProveedorController.cs" />
     <Compile Include="Controllers\UsuarioController.cs" />
@@ -2800,6 +2801,8 @@
     <Content Include="Views\Nota\ListarPeriodoNota.cshtml" />
     <Content Include="Views\Nota\ReporteMargenXMesParcial.cshtml" />
     <Content Include="Views\Marca\gitprueba.cshtml" />
+    <Content Include="Views\Pago\Index.cshtml" />
+    <Content Include="Views\Pago\ListaPago.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -32,6 +32,7 @@ namespace Logica
         private LCliente lCliente;
         private LVendedor lVendedor;
         private LUsuarios lUsuarios;
+        private LPago lPago;
 
 
         public static LLogica<E> Logica
@@ -223,6 +224,17 @@ namespace Logica
                     lUsuarios = new LUsuarios();
                 }
                 return lUsuarios;
+            }
+        }
+        public LPago LPago
+        {
+            get
+            {
+                if (lPago == null)
+                {
+                    lPago = new LPago();
+                }
+                return lPago;
             }
         }
 

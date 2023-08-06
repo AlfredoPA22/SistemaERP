@@ -23,6 +23,16 @@ namespace Entidad
         public string Proveedor { get; set; }
         
     }
+    public class ENotaxPagar
+    {
+        public int IdNota { get; set; }
+        public int NroNota { get; set; }
+        public string Fecha { get; set; }
+        public string Descripcion { get; set; }
+        public double Total { get; set; }
+        public int Tipo { get; set; }
+        public double XPagar { get; set; }
+    }
     public class ELote
     {
         public int IdArticulo { get; set; }

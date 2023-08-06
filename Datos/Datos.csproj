@@ -118,6 +118,9 @@
     <Compile Include="Origen.cs">
       <DependentUpon>ModelERP.tt</DependentUpon>
     </Compile>
+    <Compile Include="Pago.cs">
+      <DependentUpon>ModelERP.tt</DependentUpon>
+    </Compile>
     <Compile Include="Periodo.cs">
       <DependentUpon>ModelERP.tt</DependentUpon>
     </Compile>
