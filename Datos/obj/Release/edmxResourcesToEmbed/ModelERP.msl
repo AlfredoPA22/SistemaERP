@@ -180,6 +180,8 @@
     <EntitySetMapping Name="Nota">
       <EntityTypeMapping TypeName="ERPBDModel.Nota">
         <MappingFragment StoreEntitySet="Nota">
+          <ScalarProperty Name="PorPagar" ColumnName="PorPagar" />
+          <ScalarProperty Name="TipoPago" ColumnName="TipoPago" />
           <ScalarProperty Name="IdProveedor" ColumnName="IdProveedor" />
           <ScalarProperty Name="IdCliente" ColumnName="IdCliente" />
           <ScalarProperty Name="IdVendedor" ColumnName="IdVendedor" />
@@ -287,6 +289,17 @@
           <ScalarProperty Name="IdNota" ColumnName="IdNota" />
           <ScalarProperty Name="IdArticulo" ColumnName="IdArticulo" />
           <ScalarProperty Name="IdArticuloSerie" ColumnName="IdArticuloSerie" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Pago">
+      <EntityTypeMapping TypeName="ERPBDModel.Pago">
+        <MappingFragment StoreEntitySet="Pago">
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="Monto" ColumnName="Monto" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="IdNota" ColumnName="IdNota" />
+          <ScalarProperty Name="IdPago" ColumnName="IdPago" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>

@@ -111,6 +111,19 @@ namespace Entidad
         public int Stock { get; set; }
         public int Estado { get; set; }
     }
+    public class EVentasProductosJSON
+    {
+
+        public int NroNota { get; set; }
+        public int NroLote { get; set; }
+        public string Fecha { get; set; }
+        public string Cliente { get; set; }
+        public int Cantidad { get; set; }
+        public double PrecioVenta { get; set; }
+        public int IdDetalle { get; set; }
+        public string NroSerie { get; set; }
+        public double SubTotal { get; set; }
+    }
     public class ENotasJSON
     {
         public int NroNota { get; set; }

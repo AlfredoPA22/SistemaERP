@@ -27,7 +27,7 @@ namespace Logica
                     foreach (var i in comprobantes)
                     {
                         Comprobante c = new Comprobante();
-                        c.DetalleComprobante = i.DetalleComprobante;
+                        //c.DetalleComprobante = i.DetalleComprobante;
                         c.Empresa = i.Empresa;
                         c.Estado = i.Estado;
                         c.Fecha = i.Fecha;

@@ -30,6 +30,10 @@ namespace Entidad
     {
         public List<ELoteJSON> Lote { get; set; }
     }
+    public class ERArticuloVenta
+    {
+        public List<EVentasProductosJSON> Venta { get; set; }
+    }
     public class ERNotasVenta
     {
         //grafico1

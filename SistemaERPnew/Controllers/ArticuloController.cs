@@ -279,6 +279,40 @@ namespace SistemaERPnew.Controllers
             }
 
         }
+        [HttpPost]
+        public ActionResult ObtenerVentasProductos(int idarticulo)
+        {
+
+
+            try
+            {
+                Usuario usuario = (Usuario)Session["Usuario"];
+                Empresa empresa = (Empresa)Session["Empresa"];
+
+
+                ERArticuloVenta venta = logica.obtenerVentaProducto(idarticulo, empresa.IdEmpresa);
+
+                return Json(new
+                {
+                    Data = venta
+                });
+
+            }
+            catch (MensageException ex)
+            {
+                string mensaje = ex.Message.Replace("'", "");
+                ViewBag.Mensaje = mensaje;
+                return JavaScript("MostrarMensaje('" + mensaje + "');");
+            }
+            catch (Exception ex)
+            {
+
+                return JavaScript("MostrarMensaje('Ha ocurrido un error');");
+            }
+
+        }
+
+        
         public ActionResult ObtenerDatosLote(int nrolote,int idarticulo)
         {
 

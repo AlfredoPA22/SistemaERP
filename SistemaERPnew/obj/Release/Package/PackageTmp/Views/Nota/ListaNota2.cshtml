@@ -22,7 +22,7 @@
             {
                 <tr>
                     <td>@i.NroNota</td>
-                   
+
                     <td>@i.Descripcion</td>
                     <td>@i.Cliente</td>
                     <td>@i.Vendedor</td>
@@ -31,13 +31,16 @@
                     @{
                         if (i.Estado == (int)EstadoNota.Activo)
                         {
-                            <td style="text-align:center"><button class="btn btn-success" >Activo</button></td>
+                            <td style="text-align:center"><button class="btn btn-success">Activo</button></td>
                         }
                         else if (i.Estado == (int)EstadoNota.Anulado)
                         {
-                            <td style="text-align:center"><button class="btn btn-danger" >Anulado</button></td>
+                            <td style="text-align:center"><button class="btn btn-danger">Anulado</button></td>
                         }
-
+                        else if (i.Estado == (int)EstadoNota.xpagar)
+                        {
+                            <td style="text-align:center"><button class="btn btn-warning">Por Pagar</button></td>
+                        }
                     }
 
 

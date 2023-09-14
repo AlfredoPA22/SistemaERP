@@ -15,97 +15,60 @@ namespace Logica
         {
             using (var esquema = GetEsquema())
             {
-                try
-                {
-                    List<ECompra> nota = new List<ECompra>();
+                var notas = (from n in esquema.Nota
+                             where n.IdEmpresa == idempresa && n.Tipo == (int)TipoNota.Compra
+                             orderby n.NroNota descending
+                             select new ECompra
+                             {
+                                 IdNota = n.IdNota,
+                                 Estado = n.Estado,
+                                 Fecha = n.Fecha,
+                                 Descripcion = n.Descripcion,
+                                 IdEmpresa = n.IdEmpresa,
+                                 NroNota = n.NroNota,
+                                 IdUsuario = n.IdUsuario,
+                                 IdProveedor = n.IdProveedor,
+                                 Proveedor = (from p in esquema.Proveedor
+                                              where p.IdProveedor == n.IdProveedor
+                                              select p.Nombre).FirstOrDefault(),
+                                 Total = n.Total,
+                                 Tipo = n.Tipo
+                             }).ToList();
 
-
-                    var notas = (from x in esquema.Nota
-                                 where x.IdEmpresa == idempresa && x.Tipo == (int)TipoNota.Compra
-                                 orderby x.NroNota descending
-                                 select x).ToList();
-                    
-                    foreach (var i in notas)
-                    {
-                        ECompra c = new ECompra();
-
-                        c.IdNota = i.IdNota;
-                        c.Estado = i.Estado;
-                        c.Fecha = i.Fecha;
-                        c.Descripcion = i.Descripcion;
-                        c.IdEmpresa = i.IdEmpresa;
-                        c.NroNota = i.NroNota;
-                        c.IdUsuario = i.IdUsuario;
-                        c.IdProveedor = i.IdProveedor;
-                        var proveedor = (from x in esquema.Proveedor
-                                        where x.IdProveedor == i.IdProveedor
-                                        select x).FirstOrDefault();
-                        c.Proveedor = proveedor.Nombre;
-                        c.Total = i.Total;
-                        c.Tipo = i.Tipo;
-
-                        nota.Add(c);
-                    }
-
-
-                    return nota;
-
-                }
-                catch (Exception ex)
-                {
-                    throw new MensageException("Error no se puedo obtener la lista de Notas");
-                }
-
+                return notas;
             }
         }
+
         public List<ECompra> listarNota2(int idempresa)
         {
             using (var esquema = GetEsquema())
             {
-                try
-                {
-                    List<ECompra> nota = new List<ECompra>();
+                var notas = (from n in esquema.Nota
+                             where n.IdEmpresa == idempresa && n.Tipo == (int)TipoNota.Venta
+                             orderby n.NroNota descending
+                             select new ECompra
+                             {
+                                 IdNota = n.IdNota,
+                                 Estado = n.Estado,
+                                 Fecha = n.Fecha,
+                                 Descripcion = n.Descripcion,
+                                 IdEmpresa = n.IdEmpresa,
+                                 NroNota = n.NroNota,
+                                 IdUsuario = n.IdUsuario,
+                                 Total = n.Total,
+                                 Tipo = n.Tipo,
+                                 Cliente = (from c in esquema.Cliente
+                                            where c.IdCliente == n.IdCliente
+                                            select c.Nombre + " " + c.Apellido).FirstOrDefault(),
+                                 Vendedor = (from v in esquema.Vendedor
+                                             where v.IdVendedor == n.IdVendedor
+                                             select v.Nombre).FirstOrDefault()
+                             }).ToList();
 
-
-                    var notas = (from x in esquema.Nota
-                                 where x.IdEmpresa == idempresa && x.Tipo == (int)TipoNota.Venta
-                                 orderby x.NroNota descending
-                                 select x).ToList();
-                    foreach (var i in notas)
-                    {
-                        ECompra c = new ECompra();
-                        c.IdNota = i.IdNota;
-                        c.Estado = i.Estado;
-                        c.Fecha = i.Fecha;
-                        c.Descripcion = i.Descripcion;
-                        c.IdEmpresa = i.IdEmpresa;
-                        c.NroNota = i.NroNota;
-                        c.IdUsuario = i.IdUsuario;
-                        c.Total = i.Total;
-                        c.Tipo = i.Tipo;
-                        var cliente = (from x in esquema.Cliente
-                                         where x.IdCliente == i.IdCliente
-                                         select x).FirstOrDefault();
-                        c.Cliente = cliente.Nombre + cliente.Apellido;
-                        var vendedor = (from x in esquema.Vendedor
-                                       where x.IdVendedor == i.IdVendedor
-                                        select x).FirstOrDefault();
-                        c.Vendedor = vendedor.Nombre;
-
-                        nota.Add(c);
-                    }
-
-
-                    return nota;
-
-                }
-                catch (Exception ex)
-                {
-                    throw new MensageException("Error no se puedo obtener la lista de Notas");
-                }
-
+                return notas;
             }
         }
+
         public ERNotasVenta obtenerNotasVenta(int idempresa)
         {
             using (var esquema = GetEsquema())
@@ -552,7 +515,6 @@ namespace Logica
         }
 
         //sin modificar
-
         public Nota Registro(Nota Entidad, List<ELote> eDetalleComprobante, List<ENroSerie> eDetalleComprobante2, ENotaTotal DetalleTotal)
         {
             using (var esquema = GetEsquema())
@@ -632,31 +594,7 @@ namespace Logica
 
                                         }
                                         esquema.DetalleComprobante.Add(d);
-                                //DetalleComprobante z = new DetalleComprobante();
-                                //z.Numero = 2;
-                                //z.Glosa = "Compra de Mercaderias";
-                                //z.IdCuenta = empresa.IdCuentaCreditoFiscal.Value;
-                                //z.IdComprobante = c.IdComprobante;
-                                //z.IdUsuario = Entidad.IdUsuario;
-
-                                //if (moneda.Cambio == null)
-                                //{
-                                //    z.MontoDebe = DetalleTotal.Total * 0.13;
-                                //    z.MontoHaber = 0;
-
-                                //    z.MontoDebeAlt = 0;
-                                //    z.MontoHaberAlt = 0;
-                                //}
-                                //else
-                                //{
-                                //    z.MontoDebe = DetalleTotal.Total * 0.13;
-                                //    z.MontoHaber = 0;
-
-                                //    z.MontoDebeAlt = Math.Round(((DetalleTotal.Total * 0.13)/(moneda.Cambio.Value)), 2);
-                                //    z.MontoHaberAlt = 0;
-
-                                //}
-                                //esquema.DetalleComprobante.Add(z);
+                                
                                 DetalleComprobante x = new DetalleComprobante();
                                 x.Numero = 2;
                                 x.Glosa = "Compra de Mercaderias";
@@ -687,7 +625,7 @@ namespace Logica
                                 {
 
                                     var notas = (from n in esquema.Nota
-                                                 where n.IdEmpresa == Entidad.IdEmpresa
+                                                 where n.IdEmpresa == Entidad.IdEmpresa && n.Tipo == (int)TipoNota.Compra
                                                  select n).ToList();
                                     Entidad.Total = DetalleTotal.Total;
                                     Entidad.IdComprobante = c.IdComprobante;
@@ -699,8 +637,6 @@ namespace Logica
                                         {
 
                                             Lote o = new Lote();
-
-
                                             o.NroLote = 1;
                                             o.FechaIngreso = Entidad.Fecha;
                                             if (i.FechaVencimiento == "")
@@ -745,19 +681,12 @@ namespace Logica
                                         foreach (var i in eDetalleComprobante)
                                         {
                                             int nrolote = 0;
-                                            foreach (var n in notas)
-                                            {
-                                                var lote = (from y in esquema.Lote
-                                                            where y.IdNota == n.IdNota
-                                                            select y).ToList();
-                                                foreach (var l in lote)
-                                                {
-                                                    if (i.IdArticulo == l.IdArticulo)
-                                                    {
-                                                        nrolote = nrolote + 1;
-                                                    }
-                                                }
-                                            }
+
+                                                var lotesDeArticulo = esquema.Lote
+                                                    .Where(y => y.IdArticulo == i.IdArticulo)
+                                                    .ToList();
+
+                                                nrolote += lotesDeArticulo.Count;
                                             Lote t = new Lote();
 
                                             t.NroLote = nrolote + 1;
@@ -1037,31 +966,6 @@ namespace Logica
 
                                 }
                                 esquema.DetalleComprobante.Add(d);
-                                //DetalleComprobante z = new DetalleComprobante();
-                                //z.Numero = 2;
-                                //z.Glosa = "Venta de Mercaderias";
-                                //z.IdCuenta = empresa.IdCuentaIt.Value;
-                                //z.IdComprobante = c.IdComprobante;
-                                //z.IdUsuario = Entidad.IdUsuario;
-
-                                //if (moneda.Cambio == null)
-                                //{
-                                //    z.MontoDebe = DetalleTotal.Total * 0.03;
-                                //    z.MontoHaber = 0;
-
-                                //    z.MontoDebeAlt = 0;
-                                //    z.MontoHaberAlt = 0;
-                                //}
-                                //else
-                                //{
-                                //    z.MontoDebe = DetalleTotal.Total * 0.03;
-                                //    z.MontoHaber = 0;
-
-                                //    z.MontoDebeAlt = Math.Round(((DetalleTotal.Total * 0.03) / (moneda.Cambio.Value)), 2);
-                                //    z.MontoHaberAlt = 0;
-
-                                //}
-                                //esquema.DetalleComprobante.Add(z);
                                 DetalleComprobante x = new DetalleComprobante();
                                 x.Numero = 2;
                                 x.Glosa = "Venta de Mercaderias";
@@ -1087,65 +991,10 @@ namespace Logica
 
                                 }
                                 esquema.DetalleComprobante.Add(x);
-                                //DetalleComprobante v = new DetalleComprobante();
-                                //v.Numero = 4;
-                                //v.Glosa = "Venta de Mercaderias";
-                                //v.IdCuenta = empresa.IdCuentaDebitoFiscal.Value;
-                                //v.IdComprobante = c.IdComprobante;
-                                //v.IdUsuario = Entidad.IdUsuario;
-
-                                //if (moneda.Cambio == null)
-                                //{
-                                //    v.MontoDebe = 0;
-                                //    v.MontoHaber = DetalleTotal.Total * 0.13;
-
-                                //    v.MontoDebeAlt = 0;
-                                //    v.MontoHaberAlt = 0;
-                                //}
-                                //else
-                                //{
-                                //    v.MontoDebe = 0;
-                                //    v.MontoHaber = DetalleTotal.Total * 0.13;
-
-                                //    v.MontoDebeAlt = 0;
-                                //    v.MontoHaberAlt = Math.Round(((DetalleTotal.Total * 0.13) / (moneda.Cambio.Value)), 2);
-
-                                //}
-                                //esquema.DetalleComprobante.Add(v);
-                                //DetalleComprobante b = new DetalleComprobante();
-                                //b.Numero = 5;
-                                //b.Glosa = "Venta de Mercaderias";
-                                //b.IdCuenta = empresa.IdCuentaItPorPagar.Value;
-                                //b.IdComprobante = c.IdComprobante;
-                                //b.IdUsuario = Entidad.IdUsuario;
-
-                                //if (moneda.Cambio == null)
-                                //{
-                                //    b.MontoDebe =0 ;
-                                //    b.MontoHaber = DetalleTotal.Total * 0.03;
-
-                                //    b.MontoDebeAlt = 0;
-                                //    b.MontoHaberAlt = 0;
-                                //}
-                                //else
-                                //{
-                                //    b.MontoDebe = 0;
-                                //    b.MontoHaber = DetalleTotal.Total * 0.03;
-
-                                //    b.MontoDebeAlt =0 ;
-                                //    b.MontoHaberAlt = Math.Round(((DetalleTotal.Total * 0.03) / (moneda.Cambio.Value)), 2);
-
-                                //}
-                                //esquema.DetalleComprobante.Add(b);
                                 esquema.SaveChanges();
                                 if (Entidad.Tipo == (int)TipoNota.Venta)
                                 {
-
-                                    var notas = (from s in esquema.Nota
-                                                 where s.IdEmpresa == Entidad.IdEmpresa
-                                                 && s.Tipo == (int)TipoNota.Compra
-                                                 && s.Estado == (int)EstadoNota.Activo
-                                                 select s).ToList();
+                                   
 
                                     Entidad.Total = DetalleTotal.Total;
                                     Entidad.IdComprobante = c.IdComprobante;
@@ -1187,20 +1036,15 @@ namespace Logica
                                         lotes.Stock = lotes.Stock - i.Cantidad;
 
                                         esquema.SaveChanges();
-                                    }
-                                    foreach (var n in notas)
-                                    {
                                         var ajuste = (from q in esquema.Lote
-                                                      where q.IdNota == n.IdNota && q.Estado == (int)EstadoLote.Activo
-                                                      select q).ToList();
-                                        foreach (var a in ajuste)
+                                                      where q.IdArticulo == i.IdArticulo && q.NroLote==i.NroLote && q.Estado == (int)EstadoLote.Activo
+                                                      select q).FirstOrDefault();
+                                        if (ajuste.Stock == 0)
                                         {
-                                            if (a.Stock == 0)
-                                            {
-                                                a.Estado = (int)EstadoLote.Agotado;
-                                                esquema.SaveChanges();
-                                            }
+                                            ajuste.Estado = (int)EstadoLote.Agotado;
+                                            esquema.SaveChanges();
                                         }
+
                                     }
                                 }
                                 else
@@ -1224,11 +1068,11 @@ namespace Logica
                         if (Entidad.Tipo == (int)TipoNota.Venta)
                         {
 
-                            var notas = (from x in esquema.Nota
-                                         where x.IdEmpresa == Entidad.IdEmpresa
-                                         && x.Tipo == (int)TipoNota.Compra
-                                         && x.Estado == (int)EstadoNota.Activo
-                                         select x).ToList();
+                            //var notas = (from x in esquema.Nota
+                            //             where x.IdEmpresa == Entidad.IdEmpresa
+                            //             && x.Tipo == (int)TipoNota.Compra
+                            //             && x.Estado == (int)EstadoNota.Activo
+                            //             select x).ToList();
 
                             Entidad.Total = DetalleTotal.Total;
                             esquema.Nota.Add(Entidad);
@@ -1266,10 +1110,11 @@ namespace Logica
                                 lotes.Stock = lotes.Stock - i.Cantidad;
                                 esquema.SaveChanges();
                             }
-                            foreach (var n in notas)
-                            {
+
+
+
                                 var ajuste = (from x in esquema.Lote
-                                              where x.IdNota == n.IdNota && x.Estado == (int)EstadoLote.Activo
+                                              where x.IdNota == Entidad.IdNota && x.Estado == (int)EstadoLote.Activo
                                               select x).ToList();
                                 foreach (var a in ajuste)
                                 {
@@ -1279,7 +1124,6 @@ namespace Logica
                                         esquema.SaveChanges();
                                     }
                                 }
-                            }
                         }
                         else
                         {
@@ -1311,58 +1155,58 @@ namespace Logica
                 try
                 {
                     
-                    var nota = (from x in esquema.Nota
-                                       where x.IdNota == idnota
-                                       select x).FirstOrDefault();
                     var validacionlotes= (from vl in esquema.Lote
                                           where vl.IdNota == idnota
                                           select vl).ToList();
-                    var series= (from se in esquema.ArticuloSerie
-                                 where se.IdNota == idnota
-                                 select se).ToList();
+
+                    int contador = 0;
+                    
+                    //cambio el estado de los lotes a anulado y modifico la cantidad de los productos
+                    foreach (var vlotes in validacionlotes)
+                    {
+
+                        contador = (from nt in esquema.Nota
+                                        join d in esquema.Detalle
+                                        on nt.IdNota equals d.IdNota
+                                        where nt.Tipo == (int)TipoNota.Venta &&
+                                              nt.Estado == (int)EstadoNota.Activo &&
+                                              d.IdArticulo == vlotes.IdArticulo &&
+                                              d.NroLote == vlotes.NroLote
+                                        select nt).Count();
+
+                        if (contador > 0)
+                        {
+                            throw new MensageException("No se puede anular la nota porque los lotes ya estan en una venta");
+                        }
+
+                    }
+
+                    //if (nota != null)
+                    //{ 
+                    var nota = (from x in esquema.Nota
+                                where x.IdNota == idnota
+                                select x).FirstOrDefault();
+                    var series = (from se in esquema.ArticuloSerie
+                                  where se.IdNota == idnota
+                                  select se).ToList();
 
                     var notasActivas = (from nt in esquema.Nota
                                         where nt.Tipo == (int)TipoNota.Venta && nt.Estado == (int)EstadoNota.Activo
                                         select nt).ToList();
-                    int contador = 0;
-                    foreach(var vlotes in validacionlotes)
-                    {
-                        
-                        foreach(var vnotas in notasActivas)
-                        {
-
-                            var validaciondetalles = (from d in esquema.Detalle
-                                                      where d.IdNota==vnotas.IdNota && d.IdArticulo == vlotes.IdArticulo && d.NroLote == vlotes.NroLote
-                                                      select d).ToList();
-                            if (validaciondetalles.Count() > 0)
+                    foreach (var valLotes in validacionlotes)
                             {
-                                contador = contador + 1;
-                            }
-                        }
-                        
-                    }
-                    
-                    if (nota != null)
-                    { 
-                        if(contador == 0)
-                        {
-                            nota.Estado = (int)EstadoNota.Anulado;
-                            esquema.SaveChanges();
-                            var lote = (from x in esquema.Lote
-                                        where x.IdNota == nota.IdNota
-                                        select x).ToList();
-                            foreach (var i in lote)
-                            {
+                                valLotes.Estado = (int)EstadoLote.Anulado;
                                 var articulos = (from a in esquema.Articulo
-                                                 where a.IdArticulo == i.IdArticulo
-                                                 select a).FirstOrDefault();
-                                articulos.Cantidad = articulos.Cantidad - i.Cantidad;
-                                i.Estado = (int)EstadoNota.Anulado;
+                                         where a.IdArticulo == valLotes.IdArticulo
+                                         select a).FirstOrDefault();
+                                articulos.Cantidad = articulos.Cantidad - valLotes.Cantidad;
                                 esquema.SaveChanges();
                             }
+                            nota.Estado = (int)EstadoNota.Anulado;
+                            esquema.SaveChanges();
+                            
                             foreach (var z in series)
                             {
-
                                 z.Estado = 2;
                                 esquema.SaveChanges();
                             }
@@ -1374,17 +1218,13 @@ namespace Logica
                                 comprobante.Estado = (int)EstadoComprobante.Anualdo;
                                 esquema.SaveChanges();
                             }
-                        }
-                        else
-                        {
-                            throw new MensageException("No se puede anular la nota porque los lotes ya estan en una venta");
-                        }
-                           
-                    }
-                    else
-                    {
-                        throw new MensageException("No se pudo obtener la nota");
-                    }
+                    
+
+                    //}
+                    //else
+                    //{
+                    //    throw new MensageException("No se pudo obtener la nota");
+                    //}
 
                     return nota;
                 }
@@ -1405,11 +1245,11 @@ namespace Logica
                     var nota = (from x in esquema.Nota
                                 where x.IdNota == idnota
                                 select x).FirstOrDefault();
-                    var notas = (from x in esquema.Nota
-                                 where x.IdEmpresa == idempresa
-                                 && x.Tipo == (int)TipoNota.Compra
-                                 && x.Estado == (int)EstadoNota.Activo
-                                 select x).ToList();
+                    //var notas = (from x in esquema.Nota
+                    //             where x.IdEmpresa == idempresa
+                    //             && x.Tipo == (int)TipoNota.Compra
+                    //             && x.Estado == (int)EstadoNota.Activo
+                    //             select x).ToList();
 
                     if (nota != null)
                     {
@@ -1424,10 +1264,10 @@ namespace Logica
                                             where a.IdArticulo == i.IdArticulo
                                             select a).FirstOrDefault();
 
-                            var lotes= (from l in esquema.Lote
+                            var lotes=(from l in esquema.Lote
                                            where l.NroLote == i.NroLote && l.IdArticulo==i.IdArticulo
                                            select l).FirstOrDefault();
-                            if(i.IdSerie!= null)
+                            if(i.IdSerie != null)
                             {
                                 var serie = (from s in esquema.ArticuloSerie
                                              where s.IdArticuloSerie == i.IdSerie
@@ -1436,24 +1276,13 @@ namespace Logica
                             }
                             
                                 lotes.Stock = lotes.Stock + i.Cantidad;
+                                if (lotes.Estado == (int)EstadoLote.Agotado)
+                                {
+                                    lotes.Estado = (int)EstadoLote.Activo;
+                                }
                                 articulo.Cantidad = articulo.Cantidad + i.Cantidad;
                                 esquema.SaveChanges();
 
-                        }
-                        
-                        foreach (var n in notas)
-                        {
-                            var ajuste = (from x in esquema.Lote
-                                          where x.IdNota == n.IdNota && x.Estado == (int)EstadoLote.Agotado
-                                          select x).ToList();
-                            foreach (var a in ajuste)
-                            {
-                                if (a.Stock > 0)
-                                {
-                                    a.Estado = (int)EstadoLote.Activo;
-                                    esquema.SaveChanges();
-                                }
-                            }
                         }
                         var comprobante = (from x in esquema.Comprobante
                                            where x.IdComprobante == nota.IdComprobante
@@ -1620,7 +1449,7 @@ namespace Logica
                 }
             }
         }
-        public List<ENota> ObtenerNotaReporte(int idempresa, int idnota)
+        public List<ENota> ObtenerNotaReporte(int idempresa, int idnota,int idmoneda)
         {
             using (var esquema = GetEsquema())
             {
@@ -1635,14 +1464,24 @@ namespace Logica
                                         where x.IdEmpresa == idempresa
                                         && x.IdNota == idnota
                                         select x).FirstOrDefault();
-                    
+                    var moneda = (from m in esquema.EmpresaMoneda
+                                  where m.IdEmpresa == idempresa && m.Activo==1
+                                  select m).FirstOrDefault();
 
                     if (comprobantes != null)
                     {
                         
                         c.NroNota = comprobantes.NroNota;
                         c.Descripcion = comprobantes.Descripcion;
-                        c.Total = comprobantes.Total;
+                        if(idmoneda == moneda.IdMonedaPrincipal)
+                        {
+                            c.Total = comprobantes.Total;
+                        }
+                        else
+                        {
+                            c.Total = (double)(comprobantes.Total / moneda.Cambio);
+                        }
+                        
                         if (comprobantes.Tipo == (int)TipoNota.Compra)
                         {
                             c.TipoNota = "Compra";
@@ -1692,7 +1531,7 @@ namespace Logica
 
             }
         }
-        public List<ELote> listarDetalleNotaCompraXNota(int idnota, int idempresa)
+        public List<ELote> listarDetalleNotaCompraXNota(int idnota, int idempresa, int idmoneda)
         {
             using (var esquema = GetEsquema())
             {
@@ -1733,8 +1572,15 @@ namespace Logica
                         }
                         
                         e.Cantidad = i.Cantidad;
-                        e.PrecioCompra = i.PrecioCompra;
-                        e.SubTotal = i.Cantidad * i.PrecioCompra;
+                        if (idmoneda == moneda.IdMonedaPrincipal)
+                        {
+                            e.PrecioCompra = i.PrecioCompra;
+                        }
+                        else
+                        {
+                            e.PrecioCompra = (double)(i.PrecioCompra / moneda.Cambio);
+                        }
+                        e.SubTotal = i.Cantidad * e.PrecioCompra;
                         
                         detalleComprobantes.Add(e);
 
@@ -1962,28 +1808,19 @@ namespace Logica
 
                 try
                 {
-                    var notascompra = (from x in esquema.Nota
-                                       where x.IdEmpresa == idempresa && x.Tipo == (int)TipoNota.Compra && x.Estado==(int)EstadoNota.Activo
-                                       select x).ToList();
-                    var articulos = (from x in esquema.Articulo
-                                       where x.IdEmpresa == idempresa && x.Cantidad > 0
+                    var lotesActivos = (from x in esquema.Lote
+                                       where x.Estado == (int)EstadoLote.Activo
                                        select x).ToList();
                     double total = 0;
-                    if (articulos.Count > 0)
+                    if (lotesActivos.Count > 0)
                     {
-                        foreach (var i in articulos)
+                        foreach (var i in lotesActivos)
                         {
-                            var lotes = (from x in esquema.Lote
-                                         where x.IdArticulo == i.IdArticulo && x.Estado != (int)EstadoLote.Anulado
-                                         select x).ToList();
-                            var lot = lotes.Last();
 
-                            total = total + (i.Cantidad * lot.PrecioCompra);
+                            total = total + (i.Stock * i.PrecioCompra);
                         }
                     }
                     
-
-
                     return total;
 
                 }
@@ -2085,7 +1922,7 @@ namespace Logica
 
             }
         }
-        public List<EDetalle> listarDetalleNotaVentaXNota(int idnota, int idempresa)
+        public List<EDetalle> listarDetalleNotaVentaXNota(int idnota, int idempresa,int idmoneda)
         {
             using (var esquema = GetEsquema())
             {
@@ -2114,8 +1951,16 @@ namespace Logica
                                     e.Articulo = producto.Nombre;
                                     e.NroLote = i.NroLote;
                                     e.Cantidad = i.Cantidad;
-                                    e.PrecioVenta = i.PrecioVenta;
-                                    e.SubTotal = i.Cantidad * i.PrecioVenta;
+                        if (idmoneda == moneda.IdMonedaPrincipal)
+                        {
+                            e.PrecioVenta = i.PrecioVenta;
+                        }
+                        else
+                        {
+                            e.PrecioVenta = (double)(i.PrecioVenta / moneda.Cambio);
+                        }
+                                    
+                                    e.SubTotal = i.Cantidad * e.PrecioVenta;
                                     if (i.IdSerie != null)
                                     {
                                         var serie = (from x in esquema.ArticuloSerie

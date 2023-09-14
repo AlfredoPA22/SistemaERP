@@ -25,7 +25,7 @@
 <section class="content">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-12">
+            <div id="contenidoNota" class="col-12">
                 <!-- CARD -->
                 <div class="card">
                     <div class="card-header" style="padding-bottom:0px;">
@@ -177,6 +177,9 @@
                     <!-- /.card-footer-->
                 </div>
                 <!-- /.card -->
+            </div>
+            <div id="loader" style="display: none;">
+                <h1>Generando Nota...</h1>
             </div>
         </div>
     </div>
@@ -640,6 +643,8 @@
             if ($("#select_Vendedor").val() == -1) {
                 return MostrarMensaje("Seleccione un Vendedor.");
             }
+            $("#loader").show();
+            $("#contenidoNota").hide();
                 $.ajax({
                     url: "@Url.Action("RegistroVenta", "Nota")",
                     cache: false,
@@ -653,7 +658,7 @@
                                 idcliente: $("#select_Cliente").val(),
                                 idvendedor: $("#select_Vendedor").val()
                     }, success: function () {
-
+                                $("#loader").hide();
                     }
                 });
         }

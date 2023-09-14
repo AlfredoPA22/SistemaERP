@@ -27,7 +27,7 @@ namespace SistemaERPnew.Controllers
                 //Usuario usuario = (Usuario)Session["Usuario"];
                 Empresa empresa = (Empresa)Session["Empresa"];
 
-                ViewBag.Compras = LNota.Logica.LNota.listarComprasTotal(empresa.IdEmpresa);
+                ViewBag.compras = LNota.Logica.LNota.listarComprasTotal(empresa.IdEmpresa);
                 ViewBag.Ventas = LNota.Logica.LNota.listarVentasTotal(empresa.IdEmpresa);
                 
 

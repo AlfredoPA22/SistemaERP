@@ -27,7 +27,7 @@
 <section class="content">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-12">
+            <div id="contenidoNota" class="col-12">
                 <!-- Default box -->
                 <div class="card">
 
@@ -55,7 +55,7 @@
                                         </button>
                                     </div>
                                     <div class="form-group">
-                                        <a href="@Url.Action("ReporteNotaCompra", "Nota", new { idnota = Model.IdNota })" class="btn btn-info" style="margin-right:10px;" target="_blank">
+                                        <a href="@Url.Action("ReporteDeNotaCompra", "Nota", new { idnota = Model.IdNota })" class="btn btn-info" style="margin-right:10px;" target="_blank">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-card-list" viewBox="0 0 16 16">
                                                 <path d="M14.5 3a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h13zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13z" />
                                                 <path d="M5 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 5 8zm0-2.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm0 5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm-1-5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zM4 8a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm0 2.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0z" />
@@ -157,7 +157,7 @@
                                                     foreach (var i in proveedores)
                                                     {
                                                         <option value="@i.idProveedor">@i.Nombre</option>
-                                                        
+
                                                     }
                                                 }
                                             </select>
@@ -170,7 +170,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                
+
 
                                 <div class="form-group" id="contenedorLista" style="padding-bottom:0px;margin-bottom:0px">
                                     @Html.Partial("VistaLote", new List<ELote>())
@@ -203,7 +203,7 @@
                                         </button>
                                     </div>
                                     <div class="form-group">
-                                        <a href="@Url.Action("ReporteNotaCompra", "Nota", new { idnota = Model.IdNota })" class="btn btn-info" target="_blank" style="margin-right:10px;">
+                                        <a href="@Url.Action("ReporteDeNotaCompra", "Nota", new { idnota = Model.IdNota })" class="btn btn-info" target="_blank" style="margin-right:10px;">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-card-list" viewBox="0 0 16 16">
                                                 <path d="M14.5 3a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h13zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13z" />
                                                 <path d="M5 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 5 8zm0-2.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm0 5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm-1-5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zM4 8a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm0 2.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0z" />
@@ -332,6 +332,9 @@
                     <!-- /.card-footer-->
                 </div>
                 <!-- /.card -->
+            </div>
+            <div id="loader" style="display: none;">
+                <h1>Anulando Nota...</h1>
             </div>
         </div>
     </div>
@@ -660,8 +663,9 @@
 
          function AnularComprobante() {
 
-
-
+             $("#modalAnularComprobante").modal("hide");
+             $("#loader").show();
+             $("#contenidoNota").hide();
                 $.ajax({
                         url: "@Url.Action("Anular", "Nota")",
                         cache: false,
@@ -669,6 +673,10 @@
                                 dataType: "script",
                     data: {
                         idnota: $("#itIdNota").val()
+                    },
+                    success: function () {
+                        $("#loader").hide();
+                        $("#contenidoNota").show();
                     }
 
                 });

@@ -1338,7 +1338,7 @@ namespace SistemaERPnew.Controllers
 
         }
         //REPORTES
-        public ActionResult ReporteNotaCompra(int idnota)
+        public ActionResult ReporteNotaCompra(int idnota,int idmoneda)
         {
             try
             {
@@ -1350,10 +1350,10 @@ namespace SistemaERPnew.Controllers
 
 
                 List<ENota> comprobante = new List<ENota>();
-                comprobante = logica.ObtenerNotaReporte(empresa.IdEmpresa, idnota);
+                comprobante = logica.ObtenerNotaReporte(empresa.IdEmpresa, idnota, idmoneda);
 
                 List<ELote> detalleComprobantes = new List<ELote>();
-                detalleComprobantes = logica.listarDetalleNotaCompraXNota(idnota, empresa.IdEmpresa);
+                detalleComprobantes = logica.listarDetalleNotaCompraXNota(idnota, empresa.IdEmpresa,idmoneda);
 
                 List<ENroSerie> detalleComprobantes2 = new List<ENroSerie>();
                 detalleComprobantes2 = logica.listarSerieXNota(idnota, empresa.IdEmpresa);
@@ -1395,7 +1395,33 @@ namespace SistemaERPnew.Controllers
             }
 
         }
-        public ActionResult ReporteNotaVenta(int idnota)
+        public ActionResult ReporteDeNotaCompra(int idnota)
+        {
+            try
+            {
+                Usuario usuario = (Usuario)Session["Usuario"];
+                Empresa empresa = (Empresa)Session["Empresa"];
+
+                ViewBag.EmpresaMonedas = LMoneda.Logica.LMoneda.listarMonedaActivaXEmpresa(empresa.IdEmpresa);
+                ViewBag.IdNota = idnota;
+
+                return View();
+            }
+            catch (MensageException ex)
+            {
+                string mensaje = ex.Message.Replace("'", "");
+                ViewBag.Mensaje = mensaje;
+                return JavaScript("MostrarMensaje('" + mensaje + "');");
+            }
+            catch (Exception ex)
+            {
+
+                return JavaScript("MostrarMensaje('Ha ocurrido un error');");
+            }
+
+        }
+
+        public ActionResult ReporteNotaVenta(int idnota,int idmoneda)
         {
             try
             {
@@ -1405,12 +1431,11 @@ namespace SistemaERPnew.Controllers
                 List<ERDatosBasicoCuenta> datosBasico = new List<ERDatosBasicoCuenta>();
                 datosBasico = logica.ReporteDatosBasicoNota(usuario.Usuario1, empresa.IdEmpresa);
 
-
                 List<ENota> comprobante = new List<ENota>();
-                comprobante = logica.ObtenerNotaReporte(empresa.IdEmpresa, idnota);
+                comprobante = logica.ObtenerNotaReporte(empresa.IdEmpresa, idnota,idmoneda);
 
                 List<EDetalle> detalleComprobantes = new List<EDetalle>();
-                detalleComprobantes = logica.listarDetalleNotaVentaXNota(idnota, empresa.IdEmpresa);
+                detalleComprobantes = logica.listarDetalleNotaVentaXNota(idnota, empresa.IdEmpresa,idmoneda);
 
                 foreach (var a in datosBasico)
                 {
@@ -1439,7 +1464,7 @@ namespace SistemaERPnew.Controllers
 
                 viewer.LocalReport.Refresh();
 
-                ViewBag.ReporteNotaVenta = viewer;
+                ViewBag.ReporteParaNotaVenta = viewer;
 
 
                 return View("ReporteNotaVenta");
@@ -1457,6 +1482,32 @@ namespace SistemaERPnew.Controllers
             }
 
         }
+        public ActionResult ReporteDeNotaVenta(int idnota)
+        {
+            try
+            {
+                Usuario usuario = (Usuario)Session["Usuario"];
+                Empresa empresa = (Empresa)Session["Empresa"];
+
+                ViewBag.EmpresaMonedas = LMoneda.Logica.LMoneda.listarMonedaActivaXEmpresa(empresa.IdEmpresa);
+                ViewBag.IdNota = idnota;
+
+                return View();
+            }
+            catch (MensageException ex)
+            {
+                string mensaje = ex.Message.Replace("'", "");
+                ViewBag.Mensaje = mensaje;
+                return JavaScript("MostrarMensaje('" + mensaje + "');");
+            }
+            catch (Exception ex)
+            {
+
+                return JavaScript("MostrarMensaje('Ha ocurrido un error');");
+            }
+
+        }
+
         public ActionResult ReporteDeCompras()
         {
             try

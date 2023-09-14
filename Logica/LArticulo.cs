@@ -20,37 +20,26 @@ namespace Logica
 
                 try
                 {
-                    var periodo = (from x in esquema.Articulo
-                                   where x.IdEmpresa == idempresa
-                                   select x).ToList();
+                    var articulos = (from a in esquema.Articulo
+                                     join m in esquema.Marca on a.IdMarca equals m.IdMarca
+                                     join o in esquema.Origen on a.IdOrigen equals o.IdOrigen
+                                     where a.IdEmpresa == idempresa
+                                     select new ERArticulo
+                                     {
+                                         IdArticulo = a.IdArticulo,
+                                         NombreArticulo = a.Nombre,
+                                         Descripcion = a.Descripcion,
+                                         Codigo = a.CodigoArticulo,
+                                         Cantidad = a.Cantidad,
+                                         PrecioVenta = a.PrecioVenta,
+                                         IdMarca = a.IdMarca,
+                                         IdOrigen = a.IdOrigen,
+                                         StockMinimo = a.StockMinimo,
+                                         Marca = m.Nombre,
+                                         Origen = o.Nombre
+                                     }).ToList();
 
-                    List<ERArticulo> periodos = new List<ERArticulo>();
-
-                    foreach(var i in periodo)
-                    {
-                        var marca = (from x in esquema.Marca
-                                     where x.IdMarca == i.IdMarca
-                                     select x).FirstOrDefault();
-                        var origen = (from x in esquema.Origen
-                                     where x.IdOrigen == i.IdOrigen
-                                     select x).FirstOrDefault();
-                        ERArticulo Articulo = new ERArticulo();
-                        Articulo.IdArticulo = i.IdArticulo;
-                        Articulo.NombreArticulo = i.Nombre;
-                        Articulo.Descripcion = i.Descripcion;
-                        Articulo.Codigo = i.CodigoArticulo;
-                        Articulo.Cantidad = i.Cantidad;
-                        Articulo.PrecioVenta = i.PrecioVenta;
-                        Articulo.IdMarca = i.IdMarca;
-                        Articulo.IdOrigen = i.IdOrigen;
-                        Articulo.StockMinimo = i.StockMinimo;
-                        Articulo.Marca = marca.Nombre;
-                        Articulo.Origen = origen.Nombre;
-                        periodos.Add(Articulo);                                  
-                    }
-                   
-
-                    return periodos;
+                    return articulos;
 
                 }
                 catch (Exception ex)
@@ -65,93 +54,44 @@ namespace Logica
         {
             using (var esquema = GetEsquema())
             {
-
                 try
                 {
-                    var articulo = (from x in esquema.Articulo
-                                   where x.IdEmpresa == idempresa
-                                   select x).ToList();
-                    var nota = (from x in esquema.Nota
-                                    where x.IdEmpresa == idempresa && x.Estado==(int)EstadoNota.Activo
-                                    select x).ToList();
-                    List<Articulo> articulos = new List<Articulo>();
-                    foreach (var i in nota)
-                    {
-                        var lote = (from x in esquema.Lote
-                                    where x.IdNota == i.IdNota && x.Estado==(int)EstadoLote.Activo
-                                    select x).ToList();
-                        foreach(var l in lote)
-                        {
-                            foreach(var a in articulo)
-                            {
-                                if (a.IdArticulo == l.IdArticulo)
-                                {
-                                    int contador = 0;
-                                    foreach (var repart in articulos){
-                                        
-                                        if (a.IdArticulo == repart.IdArticulo)
-                                        {
-                                            contador = contador + 1;
-                                        }
-                                    }
-                                    if (contador == 0)
-                                    {
-                                        Articulo earticulo = new Articulo();
-                                        earticulo.IdArticulo = a.IdArticulo;
-                                        earticulo.Nombre = a.Nombre;
-                                        earticulo.CodigoArticulo = a.CodigoArticulo;
-                                        earticulo.Cantidad = a.Cantidad;
-                                        earticulo.PrecioVenta = a.PrecioVenta;
-                                        articulos.Add(earticulo);
-                                    }
-                                    
-                                }
-                            }
-                        }
-                    }
+                    var articulos = (from a in esquema.Articulo
+                                     where a.IdEmpresa == idempresa
+                                     && (from l in esquema.Lote
+                                         join n in esquema.Nota on l.IdNota equals n.IdNota
+                                         where n.IdEmpresa == idempresa && n.Estado == (int)EstadoNota.Activo
+                                         select l.IdArticulo)
+                                        .Contains(a.IdArticulo)
+                                     select a).Distinct().ToList();
 
                     return articulos;
-
                 }
                 catch (Exception ex)
                 {
-                    throw new MensageException("Error no se puedo obtener la lista de Articulos");
+                    throw new MensageException("Error al obtener la lista de Articulos");
                 }
-
             }
         }
+
+
         public List<ArticuloSerie> listarSeriesDisponibles(int idempresa)
         {
             using (var esquema = GetEsquema())
             {
-
                 try
                 {
-                    var articulos=(from x in esquema.Articulo where x.IdEmpresa== idempresa
-                                    select x).ToList();
+                    var seriesDisponibles = (from s in esquema.ArticuloSerie
+                                             join a in esquema.Articulo on s.IdArticulo equals a.IdArticulo
+                                             where s.Estado == 1 && a.IdEmpresa == idempresa
+                                             select s).ToList();
 
-                    List<ArticuloSerie> ArticuloSer = new List<ArticuloSerie>();
-                    foreach (var i in articulos) {
-                        var series= (from x in esquema.ArticuloSerie
-                                     where x.Estado == 1 && x.IdArticulo==i.IdArticulo
-                                     select x).ToList();
-                        foreach(var e in series)
-                        {
-                            ArticuloSerie SerieDisponible = new ArticuloSerie();
-                            SerieDisponible = e;
-                            ArticuloSer.Add(SerieDisponible);
-                        }
-
-                    }
-
-                    return ArticuloSer;
-
+                    return seriesDisponibles;
                 }
                 catch (Exception ex)
                 {
-                    throw new MensageException("Error no se puedo obtener la lista de Numeros de Serie");
+                    throw new MensageException("Error al obtener la lista de Números de Serie");
                 }
-
             }
         }
 
@@ -245,27 +185,20 @@ namespace Logica
 
                 try
                 {
-                    var articulo = (from x in esquema.Articulo
-                                    where x.IdEmpresa == idempresa
-                                    select x).ToList();
+                    
                     var serie = (from x in esquema.ArticuloSerie
                                  where x.IdArticuloSerie == idserie
                                  select x).FirstOrDefault();
-
+                    var articulo = (from x in esquema.Articulo
+                                    where x.IdEmpresa == idempresa && x.IdArticulo == serie.IdArticulo
+                                    select x).FirstOrDefault();
                     if (articulo != null)
                     {
                         Articulo ArticuloXSerie = new Articulo();
-                        foreach (var i in articulo)
-                        {
-                            if (i.IdArticulo == serie.IdArticulo)
-                            {
-                                ArticuloXSerie.IdArticulo = i.IdArticulo;
-                                ArticuloXSerie.Nombre = i.Nombre;
-                                ArticuloXSerie.CodigoArticulo = i.CodigoArticulo;
-                               
-
-                            }
-                        }
+                       
+                                ArticuloXSerie.IdArticulo = articulo.IdArticulo;
+                                ArticuloXSerie.Nombre = articulo.Nombre;
+                                ArticuloXSerie.CodigoArticulo = articulo.CodigoArticulo;
 
                         return ArticuloXSerie;
 
@@ -318,61 +251,117 @@ namespace Logica
 
             }
         }
-        
+
 
         public ERArticuloLote obtenerLote(int idarticulo, int idempresa)
         {
             using (var esquema = GetEsquema())
             {
-
                 try
                 {
-
-                    var notas = (from x in esquema.Nota
-                                    where x.IdEmpresa == idempresa
-                                    select x).ToList();
-                    if (notas != null)
+                    var elote = new ERArticuloLote
                     {
-                        ERArticuloLote elote = new ERArticuloLote();
-                        elote.Lote = new List<ELoteJSON>();
-                        foreach (var i in notas)
+                        Lote = new List<ELoteJSON>()
+                    };
+
+                    var notas = (from n in esquema.Nota
+                                 where n.IdEmpresa == idempresa
+                                 select n.IdNota).ToList();
+
+                    var lotes = (from l in esquema.Lote
+                                 where notas.Contains(l.IdNota) && l.IdArticulo == idarticulo
+                                 select l).ToList();
+
+                    foreach (var l in lotes)
+                    {
+                        var c = new ELoteJSON
                         {
-                            var lotes= (from x in esquema.Lote
-                                        where x.IdNota == i.IdNota
-                                        select x).ToList();
-                            foreach(var l in lotes)
-                            {
-                                if (l.IdArticulo == idarticulo)
-                                {
-                                    ELoteJSON c = new ELoteJSON();
-                                    c.NroLote = l.NroLote;
-                                    c.FechaIngreso = l.FechaIngreso.ToString("dd/MM/yyyy");
-                                    c.FechaVencimiento = l.FechaVencimiento.ToString();
-                                    c.Cantidad = l.Cantidad;
-                                    c.Stock = l.Stock;
-                                    c.PrecioCompra = l.PrecioCompra;
-                                    c.Estado = l.Estado;
-                                    elote.Lote.Add(c);
-                                }
-                            }
-                        }
-                    
-                        return elote;
-
+                            NroLote = l.NroLote,
+                            FechaIngreso = l.FechaIngreso.ToString("dd/MM/yyyy"),
+                            FechaVencimiento = l.FechaVencimiento.ToString(),
+                            Cantidad = l.Cantidad,
+                            Stock = l.Stock,
+                            PrecioCompra = l.PrecioCompra,
+                            Estado = l.Estado
+                        };
+                        elote.Lote.Add(c);
                     }
-                    else
+
+                    if (elote.Lote.Count == 0)
                     {
-                        throw new MensageException("No se pudo obtener el lote");
+                        throw new MensageException("No se encontraron lotes para el artículo");
                     }
 
+                    return elote;
                 }
                 catch (Exception ex)
                 {
-                    throw new MensageException("Error no se puedo obtener la lista de Lotes");
+                    throw new MensageException("Error al obtener la lista de lotes");
                 }
-
             }
         }
+        public ERArticuloVenta obtenerVentaProducto(int idarticulo, int idempresa)
+        {
+            using (var esquema = GetEsquema())
+            {
+                try
+                {
+                    var eventa = new ERArticuloVenta
+                    {
+                        Venta = new List<EVentasProductosJSON>()
+                    };
+
+                    var notas = (from n in esquema.Nota
+                                 where n.IdEmpresa == idempresa && n.Estado == (int)EstadoNota.Activo && n.Tipo == (int)TipoNota.Venta
+                                 select n.IdNota).ToList();
+
+                    var detalles = (from d in esquema.Detalle
+                                 where notas.Contains(d.IdNota) && d.IdArticulo == idarticulo
+                                 select d).ToList();
+
+                    foreach (var d in detalles)
+                    {
+                        var nota = (from nt in esquema.Nota
+                                        where  d.IdNota == nt.IdNota
+                                        select nt).FirstOrDefault();
+                        var cliente = (from cl in esquema.Cliente
+                                    where nota.IdCliente == cl.IdCliente
+                                    select cl).FirstOrDefault();
+                        var serie = "Sin Serie";
+                        if (d.IdSerie != null)
+                        {
+                            serie = (from sr in esquema.ArticuloSerie
+                                           where d.IdSerie == sr.IdArticuloSerie
+                                           select sr.NumeroSerie).FirstOrDefault();
+                        }
+                        var c = new EVentasProductosJSON
+                        {
+                            NroNota = nota.NroNota,
+                            NroLote = d.NroLote,
+                            Cantidad = d.Cantidad,
+                            PrecioVenta = d.PrecioVenta,
+                            IdDetalle = d.IdDetalle,
+                            Fecha = nota.Fecha.ToString("dd/MM/yyyy"),
+                            Cliente = cliente.Nombre + " " + cliente.Apellido,
+                            NroSerie = serie,
+                            SubTotal=d.Cantidad*d.PrecioVenta
+                        };
+                        eventa.Venta.Add(c);
+                    }
+                    if (eventa.Venta.Count == 0)
+                    {
+                        throw new MensageException("No se encontraron Ventas para el artículo");
+                    }
+
+                    return eventa;
+                }
+                catch (Exception ex)
+                {
+                    throw new MensageException("Error al obtener la lista de Ventas");
+                }
+            }
+        }
+        
         public ERArticuloLote obtenerLoteArticulo(int nrolote, int idarticulo)
         {
             using (var esquema = GetEsquema())
@@ -419,23 +408,14 @@ namespace Logica
 
                 try
                 {
-
-                    var notas = (from x in esquema.Nota
-                                 where x.IdEmpresa == idempresa && x.Estado==(int)EstadoNota.Activo
-                                 select x).ToList();
-                    if (notas != null)
-                    {
                         ERArticuloLote elote = new ERArticuloLote();
                         elote.Lote = new List<ELoteJSON>();
-                        foreach (var i in notas)
-                        {
+
                             var lotes = (from x in esquema.Lote
-                                         where x.IdNota == i.IdNota && x.Estado==(int)EstadoLote.Activo
+                                         where x.Estado==(int)EstadoLote.Activo && x.IdArticulo == idarticulo
                                          select x).ToList();
                             foreach (var l in lotes)
                             {
-                                if (l.IdArticulo == idarticulo)
-                                {
                                     ELoteJSON c = new ELoteJSON();
                                     c.NroLote = l.NroLote;
                                     c.FechaIngreso = l.FechaIngreso.ToString("dd/MM/yyyy");
@@ -444,17 +424,9 @@ namespace Logica
                                     c.Stock = l.Stock;
                                     c.Estado = l.Estado;
                                     elote.Lote.Add(c);
-                                }
                             }
-                        }
 
                         return elote;
-
-                    }
-                    else
-                    {
-                        throw new MensageException("No se pudo obtener el lote");
-                    }
 
                 }
                 catch (Exception ex)

@@ -276,6 +276,50 @@
     </div>
     <!-- /.modal-dialog -->
 </div>
+<div class="modal fade" id="modalEmpresaVentas">
+    <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="tituloVentas"></h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <form role="form">
+
+                <div class="modal-body">
+
+                    <div style="height:400px; overflow: scroll;">
+                        <table class="table table-bordered table-hover" id="tabla_ventas">
+                            <thead>
+                                <tr>
+                                    <th style="width:10%;">Nro Nota</th>
+                                    <th style="width:10%;">Nro Lote</th>
+                                    <th style="width:15%;">Fecha</th>
+                                    <th style="width:15%;">Cliente</th>
+                                    <th style="width:15%;">Cantidad</th>
+                                    <th style="width:15%;">Precio de Venta</th>
+                                    <th style="width:20%;">SubTotal</th>
+                                </tr>
+                            </thead>
+                            <tbody id="idtbodyventas">
+                            </tbody>
+                        </table>
+                    </div>
+
+                </div>
+            </form>
+            <div class="modal-footer justify-content-end">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+        <!-- /.modal-content -->
+
+
+
+    </div>
+    <!-- /.modal-dialog -->
+</div>
 <div class="modal fade" id="modalEmpresa4">
     <div class="modal-dialog modal-dialog-centered modal-lg">
         <div class="modal-content">
@@ -496,7 +540,7 @@
             var initTable1 = function () {
 
                 var table = $('#tabla_articulo');
-               
+
                 var oTable = table.dataTable({
                     "stateSave": "true",
                     // Internationalisation. For more info refer to http://datatables.net/manual/i18n
@@ -505,7 +549,7 @@
                             "sortAscending": ": activate to sort column ascending",
                             "sortDescending": ": activate to sort column descending"
                         },
-                        
+
                         "emptyTable": "No hay datos para mostrar",
                         "info": "Mostrando _START_ a _END_ de _TOTAL_ Articulo",
                         "infoEmpty": "No hay datos para mostrar",
@@ -513,7 +557,7 @@
                         "lengthMenu": "_MENU_ Articulo",
                         "search": "Buscar:",
                         "zeroRecords": "No se encontraron coincidencias",
-                        
+
                     },
 
                     // Or you can use remote translation file
@@ -622,7 +666,7 @@
 
 
     function Registro() {
-        
+
             let radio = $('input[name="flexRadioDefault"]:checked').val();
             var lista = [];
             $("#select_Categoria option:selected").each(function () {
@@ -756,7 +800,7 @@
                     } else {
                         $("#itImg2").attr("src", result.Data.FileName);
                     }
-                    
+
                     $("#itCantidad2").val(result.Data.Cantidad);
                     let lista = []
                     result.Data.Categoria.forEach((item) => { //Recorro primer arreglo
@@ -780,7 +824,6 @@
         function ObtenerLote(id,nombre) {
         var Table = document.getElementById("idtbody");
         Table.innerHTML = "";
-
             $.ajax({
                 url: "@Url.Action("ObtenerLote", "Articulo")",
                 cache: false,
@@ -815,7 +858,60 @@
 
             })
 
+    }
+        function ObtenerVentasProductos(id,nombre) {
+        var Table2 = document.getElementById("idtbodyventas");
+            Table2.innerHTML = "";
+            $("#tituloVentas").html("Ventas del Articulo: " + nombre);
+            $("#modalEmpresaVentas").modal('show');
+            $.ajax({
+                url: "@Url.Action("ObtenerVentasProductos", "Articulo")",
+                cache: false,
+                type: "POST",
+                dataType: "json",
+                data: {
+                    idarticulo: id
+                }, success: function (result) {
+                    let dataVentas = [];
+                    let Total = 0;
+                    let TotalCantidad = 0;
+                    result.Data.Venta.forEach((elem) => {
+                        var indexNum = dataVentas.findIndex((ind) => ind.NroNota == elem.NroNota)
+                        if (indexNum != -1) {
+                            dataVentas[indexNum].Cantidad = dataVentas[indexNum].Cantidad + elem.Cantidad
+                            dataVentas[indexNum].SubTotal = dataVentas[indexNum].Cantidad * dataVentas[indexNum].PrecioVenta
+                        } else {
+                            dataVentas.push(elem)
+                        }
+                    })
+                    dataVentas.forEach((elem) => {
+                        Total += elem.SubTotal;
+                        TotalCantidad += elem.Cantidad;
+                    })
+                    dataVentas.push({
+                        NroNota: '',
+                        NroLote: '',
+                        Fecha: '',
+                        Cliente: 'Total Cantidad',
+                        Cantidad: TotalCantidad,
+                        PrecioVenta: 'Total',
+                        SubTotal: Total
+                    })
+                    dataVentas.forEach(function (ventas) {
+                        var fila = "<tr><td>" + ventas.NroNota + "</td><td>" + ventas.NroLote + "</td><td>" + ventas.Fecha + "</td><td>" + ventas.Cliente + "</td></tr>" + "</td><td>" + ventas.Cantidad + "</td></tr>" + "</td><td>" + ventas.PrecioVenta + "</td><td>" + ventas.SubTotal + "</td></tr>";
+                       
+                        var btn = document.createElement("tr");
+                        
+                        btn.innerHTML = fila;
+                        
+                        document.getElementById("idtbodyventas").appendChild(btn);
+                        
+                    })
+                    
+                }
+            })
         }
+    
         var Id = null;
 
         function AbrirModalEliminar(id,nombre) {

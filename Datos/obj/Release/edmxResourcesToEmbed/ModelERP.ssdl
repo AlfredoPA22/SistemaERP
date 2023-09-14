@@ -218,6 +218,8 @@
     <Property Name="IdVendedor" Type="int" />
     <Property Name="IdCliente" Type="int" />
     <Property Name="IdProveedor" Type="int" />
+    <Property Name="TipoPago" Type="int" />
+    <Property Name="PorPagar" Type="float" />
   </EntityType>
   <EntityType Name="Origen">
     <Key>
@@ -226,6 +228,16 @@
     <Property Name="IdOrigen" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="Nombre" Type="varchar" MaxLength="100" />
     <Property Name="Abreviatura" Type="varchar" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="Pago">
+    <Key>
+      <PropertyRef Name="IdPago" />
+    </Key>
+    <Property Name="IdPago" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IdNota" Type="int" />
+    <Property Name="Fecha" Type="date" />
+    <Property Name="Monto" Type="float" />
+    <Property Name="Estado" Type="int" />
   </EntityType>
   <EntityType Name="Periodo">
     <Key>
@@ -753,6 +765,18 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
+  <Association Name="FK__Pago__IdNota__29221CFB">
+    <End Role="Nota" Type="Self.Nota" Multiplicity="0..1" />
+    <End Role="Pago" Type="Self.Pago" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Nota">
+        <PropertyRef Name="IdNota" />
+      </Principal>
+      <Dependent Role="Pago">
+        <PropertyRef Name="IdNota" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
   <Association Name="FK__Periodo__IdGesti__6D0D32F4">
     <End Role="Gestion" Type="Self.Gestion" Multiplicity="0..1" />
     <End Role="Periodo" Type="Self.Periodo" Multiplicity="*" />
@@ -795,6 +819,7 @@
     <EntitySet Name="Moneda" EntityType="Self.Moneda" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Nota" EntityType="Self.Nota" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Origen" EntityType="Self.Origen" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Pago" EntityType="Self.Pago" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Periodo" EntityType="Self.Periodo" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Proveedor" EntityType="Self.Proveedor" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Usuario" EntityType="Self.Usuario" Schema="dbo" store:Type="Tables" />
@@ -958,6 +983,10 @@
     <AssociationSet Name="FK__Nota__IdVendedor__6C190EBB" Association="Self.FK__Nota__IdVendedor__6C190EBB">
       <End Role="Vendedor" EntitySet="Vendedor" />
       <End Role="Nota" EntitySet="Nota" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Pago__IdNota__29221CFB" Association="Self.FK__Pago__IdNota__29221CFB">
+      <End Role="Nota" EntitySet="Nota" />
+      <End Role="Pago" EntitySet="Pago" />
     </AssociationSet>
     <AssociationSet Name="FK__Periodo__IdGesti__6D0D32F4" Association="Self.FK__Periodo__IdGesti__6D0D32F4">
       <End Role="Gestion" EntitySet="Gestion" />

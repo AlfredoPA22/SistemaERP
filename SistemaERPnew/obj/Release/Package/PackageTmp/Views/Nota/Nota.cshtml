@@ -22,7 +22,7 @@
 <section class="content">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-12">
+            <div id="contenidoNota" class="col-12">
                 <!-- CARD -->
                 <div class="card">
                     <div class="card-header" style="padding-bottom:0px;">
@@ -138,6 +138,9 @@
                     <!-- /.card-footer-->
                 </div>
                 <!-- /.card -->
+            </div>
+            <div id="loader" style="display: none;">
+                <h1>Generando Nota...</h1>
             </div>
         </div>
     </div>
@@ -547,6 +550,8 @@
             if ($("#select_Proveedor").val() == -1) {
                 return MostrarMensaje("Seleccione un Proveedor.");
             }
+            $("#loader").show();
+            $("#contenidoNota").hide();
                 $.ajax({
                     url: "@Url.Action("Registro", "Nota")",
                     cache: false,
@@ -558,7 +563,7 @@
                                 descripcion: $("#itDescripcion").val(),
                                 proveedor: $("#select_Proveedor").val()
                     }, success: function () {
-
+                                $("#loader").hide();
                     }
                 });
         }
